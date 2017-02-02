@@ -35,10 +35,10 @@
       {% assign separator = "" %}
     {% endif %}
     {% if include.menu == "main-menu" %}
-         <a href="/{{ language }}/">{{ language }}</a>{{ separator }}
+         <a href="{{ site.baseurl }}/{{ language }}/">{{ language }}</a>{{ separator }}
       {% else %}
         <li>
-           <a href="/{{ language }}/">{{ language }}</a>{{ separator }}
+           <a href="{{ site.baseurl }}/{{ language }}/">{{ language }}</a>{{ separator }}
         </li>
       {% endif %}
   {% endfor %}
