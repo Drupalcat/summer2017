@@ -1,14 +1,14 @@
-{% if include.menu.size > 0 %}
-<ul class="nav nav-list">
-    {% for item in include.menu %}
-      {% if item.url == page.url %}
-      <li class="active">
-      {% else %}
-      <li>
+      {% if include.menu.size > 0 %}
+      <ul class="nav nav-list">
+        {% for item in include.menu %}
+          {% if item.url == page.url %}
+          <li class="active">
+          {% else %}
+          <li>
+          {% endif %}
+              <a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>
+          </li>
+        {% endfor %}
+        <li class="main-menu__language">{% include language-switcher-content.html menu="main-menu" %}</li>
+      </ul>
       {% endif %}
-          <a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>
-      </li>
-    {% endfor %}
-    <li class="main-menu__language">{% include language-switcher-content.html menu="main-menu" %}</li>
-  </ul>
-{% endif %}

@@ -1,5 +1,5 @@
 {% if document.language == current_language %}
-  {{ document.language }}
+    {{ document.language }}
 {% else %}
     <a href="{{ site.baseurl }}{{ document.url }}">{{ document.language }}</a>
 {% endif %}

@@ -23,11 +23,9 @@
 
 {% if page.url == "/" %}
   {% if include.menu == "main-menu" %}
-    {{ site.enabled_languages[0] }}{{ separator }}
-  {% else %}
-    <li>
       {{ site.enabled_languages[0] }}{{ separator }}
-    </li>
+  {% else %}
+      <li>{{ site.enabled_languages[0] }}{{ separator }}</li>
   {% endif %}
     
   {% for language in site.enabled_languages offset:1 %}
@@ -35,11 +33,9 @@
       {% assign separator = "" %}
     {% endif %}
     {% if include.menu == "main-menu" %}
-         <a href="{{ site.baseurl }}/{{ language }}/">{{ language }}</a>{{ separator }}
+        <a href="{{ site.baseurl }}/{{ language }}/">{{ language }}</a>{{ separator }}
       {% else %}
-        <li>
-           <a href="{{ site.baseurl }}/{{ language }}/">{{ language }}</a>{{ separator }}
-        </li>
+        <li><a href="{{ site.baseurl }}/{{ language }}/">{{ language }}</a>{{ separator }}</li>
       {% endif %}
   {% endfor %}
 {% endif %}

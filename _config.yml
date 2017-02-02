@@ -10,7 +10,7 @@ description: |
 owner: Your Name # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: your-email@domain.com
-baseurl: "/spectral-multilingual" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/<username>
@@ -61,6 +61,19 @@ markdown: kramdown
 # Directories to include
 include: ['_pages']
 
+# Compress configuration to remove white spaces
+# and line breaks
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: true
+  profile: false
+  startings: []
+
+
 # Site languages: used for the language switcher
 # first element is the default language
 enabled_languages: ["ca", "en", "es"]
@@ -69,18 +82,19 @@ enabled_languages: ["ca", "en", "es"]
 t:
   ca:
     description: >
-      El Drupal Summer Barcelona és un esdeveniment centrat en el Drupal per a potenciar-ne l’ús i interconnectar l’ecosistema d’empreses, desenvolupadors, dissenyadors, caps de projecte, usuaris i altres professionals, i alhora donar a conèixer l’ecosistema del Drupal local a fora.
-    event_date: XX-YY juliol
+      Descripció català
+      
+    event_date: XX-YY mes
     discover_more: descobreix més
   en:
     description: >
-      Drupal Summer Barcelona is an event which aims to promote the use of Drupal and to interconnect businesses, agencies, developers, designers, project managers, users and other professionals.
-    event_date: XX-YY july
+      Description english
+    event_date: XX-YY month
     discover_more: discover more
   es:
     description: >
-      El Drupal Summer Barcelona es un evento centrado en Drupal para potenciar su uso e interconectar el ecosistema de empresas, desarrolladores, diseñadores, jefes de proyecto, usuarios y otros profesionales, y a la vez dar a conocer el ecosistema de Drupal local fuera.
-    event_date: XX-YY julio
+      Descripción castellano
+    event_date: XX-YY mes
     discover_more: descubre más
 
 # Main menu
