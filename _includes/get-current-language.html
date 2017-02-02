@@ -1,0 +1,9 @@
+{% assign current_url = page.url | split: '/' %}
+{% assign language_from_url = current_url[1] %}
+{% assign current_language = site.enabled_languages[0] %}
+
+{% for language in site.enabled_languages %}
+  {% if language == language_from_url %}
+    {% assign current_language = language %}
+  {% endif %}
+{% endfor %}

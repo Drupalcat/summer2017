@@ -1,0 +1,37 @@
+.language-switcher {
+  position: absolute;
+  font-size: 0.8rem;
+  margin-right: 1em;
+  right: 150px;
+  top: 1px;
+  text-transform: uppercase;
+  
+  @include breakpoint(xsmall) {
+    display: none;
+  }
+
+  @include breakpoint(small) {
+    right: 80px;
+  }
+
+  li{
+    display: inline-block;
+    padding: 0;
+  }
+}
+
+#menu ul > li.main-menu__language {
+  display: none;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+
+  @include breakpoint(small) {
+    display: block;
+  }
+
+  a {
+    display: inline;
+    font-size: 0.8rem;
+    border-bottom: dotted 1px;
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "spectral-multilingual",
+  "version": "1.0.0",
+  "description": "Multilingual version of Spectral Jekyll theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/espurnes/spectral-multilingual.git"
+  },
+  "author": "espurnes <aleix.batalla@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/espurnes/spectral-multilingual/issues"
+  },
+  "homepage": "https://github.com/espurnes/spectral-multilingual#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "gulp-uglify": "^2.0.1",
+    "pump": "^1.0.2"
+  }
+}

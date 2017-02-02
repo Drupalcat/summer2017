@@ -2,7 +2,7 @@
 #
 
 # Site settings
-title: Spectral
+title: Spectral multilingual
 description: |
   Another fine responsive  
   site template freebie  
@@ -57,3 +57,60 @@ social:
 markdown: kramdown
 #sass:
 #  style: compressed
+
+# Directories to include
+include: ['_pages']
+
+# Site languages: used for the language switcher
+# first element is the default language
+enabled_languages: ["ca", "en", "es"]
+
+# Translations
+t:
+  ca:
+    description: >
+      El Drupal Summer Barcelona és un esdeveniment centrat en el Drupal per a potenciar-ne l’ús i interconnectar l’ecosistema d’empreses, desenvolupadors, dissenyadors, caps de projecte, usuaris i altres professionals, i alhora donar a conèixer l’ecosistema del Drupal local a fora.
+    event_date: XX-YY juliol
+    discover_more: descobreix més
+  en:
+    description: >
+      Drupal Summer Barcelona is an event which aims to promote the use of Drupal and to interconnect businesses, agencies, developers, designers, project managers, users and other professionals.
+    event_date: XX-YY july
+    discover_more: discover more
+  es:
+    description: >
+      El Drupal Summer Barcelona es un evento centrado en Drupal para potenciar su uso e interconectar el ecosistema de empresas, desarrolladores, diseñadores, jefes de proyecto, usuarios y otros profesionales, y a la vez dar a conocer el ecosistema de Drupal local fuera.
+    event_date: XX-YY julio
+    discover_more: descubre más
+
+# Main menu
+main-menu:
+  ca:
+    - name: inici
+      url: /ca/
+    - name: ponents destacats
+      url: "/#speakers"
+    - name: patrocinadors
+      url: "/#sponsors"
+    - name: codi de conducta
+      url: /codi-de-conducta/
+  en:
+    - name: home
+      url: /en/
+    - name: featured speakers
+      url: "/en/#speakers"
+    - name: sponsors
+      url: "/en/#sponsors"
+    - name: codi de conducta
+      url: /en/code-of-conduct/
+  es:
+    - name: inicio
+      url: /es/
+    - name: ponentes destacados
+      url: "/es/#speakers"
+    - name: patrocinadores
+      url: "/es/#sponsors"
+    - name: codigo de conducta
+      url: /es/codigo-de-conducta/
+
+

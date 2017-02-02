@@ -1,0 +1,45 @@
+{% assign separator = " / " %}
+
+{% for lang in site.enabled_languages  %}
+
+  {% if forloop.last == true %}
+    {% assign separator = "" %}
+  {% endif %}
+
+  {% for document in site.documents %}
+    {% if document.tid and document.tid == page.tid and document.language == lang %}
+      {% include language-switcher-conditional-print.html %}{{ separator }}
+    {% endif %}
+  {% endfor %}
+
+  {% for document in site.pages  %}
+    {% if document.tid and document.tid == page.tid and document.language == lang %}
+      {% include language-switcher-conditional-print.html %}{{ separator }}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% assign separator = " / " %}
+
+{% if page.url == "/" %}
+  {% if include.menu == "main-menu" %}
+    {{ site.enabled_languages[0] }}{{ separator }}
+  {% else %}
+    <li>
+      {{ site.enabled_languages[0] }}{{ separator }}
+    </li>
+  {% endif %}
+    
+  {% for language in site.enabled_languages offset:1 %}
+    {% if forloop.last == true %}
+      {% assign separator = "" %}
+    {% endif %}
+    {% if include.menu == "main-menu" %}
+         <a href="/{{ language }}/">{{ language }}</a>{{ separator }}
+      {% else %}
+        <li>
+           <a href="/{{ language }}/">{{ language }}</a>{{ separator }}
+        </li>
+      {% endif %}
+  {% endfor %}
+{% endif %}

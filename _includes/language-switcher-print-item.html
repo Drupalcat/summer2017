@@ -1,0 +1,5 @@
+{% if document.language == current_language %}
+  {{ document.language }}
+{% else %}
+    <a href="{{ document.url }}">{{ document.language }}</a>
+{% endif %}

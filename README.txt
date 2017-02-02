@@ -1,4 +1,19 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+An Update of the Spectral Jekyll theme to add multilingual
+functionality.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+## Jekyll adds linebreaks
+The Liquid syntax, which is used by Jekyll, has an unpleasant default: 
+it generates significant spaces and unneccessary line breaks in the generated 
+pages source code.
+
+This is especially true when you want to indent your Liquid code, or want to 
+use loops.
+Reference: https://www.sylvaindurand.org/compressing-liquid-generated-html/
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 A Jekyll port of the Spectral theme by HTML5 UP.
 Find the original non-jekyll theme at: http://html5up.net/
 Note: @arkadianriver is in no way associated with @n33co
