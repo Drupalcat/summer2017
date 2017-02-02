@@ -88,29 +88,21 @@ main-menu:
   ca:
     - name: inici
       url: /ca/
-    - name: ponents destacats
-      url: "/#speakers"
-    - name: patrocinadors
-      url: "/#sponsors"
-    - name: codi de conducta
-      url: /codi-de-conducta/
+    - name: qui som
+      url: /ca/qui-som/
+    - name: elements
+      url:  /elements.html
   en:
     - name: home
       url: /en/
-    - name: featured speakers
-      url: "/en/#speakers"
-    - name: sponsors
-      url: "/en/#sponsors"
-    - name: codi de conducta
-      url: /en/code-of-conduct/
+    - name: about us
+      url: /es/about/
+    - name: elements
+      url:  /elements.html
   es:
     - name: inicio
       url: /es/
-    - name: ponentes destacados
-      url: "/es/#speakers"
-    - name: patrocinadores
-      url: "/es/#sponsors"
-    - name: codigo de conducta
-      url: /es/codigo-de-conducta/
-
-
+    - name: sobre nosotros
+      url: /es/sobre-nosotros/
+    - name: elementos
+      url:  /elements.html
