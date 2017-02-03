@@ -2,9 +2,9 @@
 #
 
 # Site settings
-title: Spectral multilingual
+title: Drupal Summer Barcelona
 owner: Your Name # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
+first_published: 2017 # if migrating another site, the year of your first publish
 email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
@@ -80,46 +80,61 @@ enabled_languages: ["ca", "en", "es"]
 t:
   ca:
     description: >
-      Adaptació a multiidoma del tema Jekyll
-      [Spectral](https://github.com/arkadianriver/spectral)
-      basat en [HTML5 UP](http://html5up.net)
-    activate: activar
+      El Drupal Summer Barcelona és un esdeveniment centrat en el Drupal per a
+      potenciar-ne l’ús i interconnectar l’ecosistema d’empreses,
+      desenvolupadors, dissenyadors, caps de projecte, usuaris i altres
+      professionals, i alhora donar a conèixer l’ecosistema del Drupal local a
+      fora.
     learn_more: descobreix més
+    activate: activar
   en:
     description: >
-      Multilingual version of the Jekyll template
-      [Spectral](https://github.com/arkadianriver/spectral)
-      based on [HTML5 UP](http://html5up.net)
-    activate: acivate
-    learn_more: learn more
+      Drupal Summer Barcelona is an event which aims to promote the use of
+      Drupal and to interconnect businesses, agencies, developers,
+      designers, project managers, users and other professionals.
+    learn_more: discover more
+    activate: activate
   es:
     description: >
-      Adaptación a multiidoma del tema Jekyll
-      [Spectral](https://github.com/arkadianriver/spectral)
-      basado en [HTML5 UP](http://html5up.net)
-    activate: activar
+      El Drupal Summer Barcelona es un evento centrado en Drupal para potenciar
+      su uso e interconectar el ecosistema de empresas, desarrolladores,
+      diseñadores, jefes de proyecto, usuarios y otros profesionales, y a la vez
+      dar a conocer el ecosistema de Drupal local fuera.
     learn_more: descubre más
+    activate: activar
 
 # Main menu
 main-menu:
   ca:
     - name: inici
       url: /ca/
-    - name: qui som
-      url: /ca/qui-som/
+    - name: ponents destacats
+      url: "/ca/#speakers"
     - name: elements
       url:  /elements.html
+    - name: patrocinadors
+      url: "/ca/#sponsors"
+    - name: codi de conducta
+      url: /ca/codi-de-conducta/
   en:
     - name: home
       url: /en/
-    - name: about us
-      url: /es/about/
+    - name: featured speakers
+      url: "/en/#speakers"
     - name: elements
       url:  /elements.html
+    - name: sponsors
+      url: "/en/#sponsors"
+    - name: code of conduct
+      url: /en/code-of-conduct/
   es:
     - name: inicio
       url: /es/
-    - name: sobre nosotros
-      url: /es/sobre-nosotros/
+    - name: ponenetes destacados
+      url: "/es/#speakers"
     - name: elementos
       url:  /elements.html
+    - name: patrocinadores
+      url: "/es/#sponsors"
+    - name: código de conducta
+      url: /es/codigo-de-conducta/
