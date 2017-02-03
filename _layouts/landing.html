@@ -9,6 +9,7 @@ layout: compress
   Jekyll build mod
 -->
 <html>
+  {% include get-current-language.html %}
 
   {% include head.html %}
 
@@ -19,7 +20,22 @@ layout: compress
 
       {% include header.html %}
 
-      {{ content }}
+      <!-- Banner -->
+        {% include landing-section-banner.html %}
+
+      <!-- One -->
+        {% include landing-section-1.html %}
+
+      <!-- Two -->
+        {% include landing-section-2.html %}
+
+      <!-- Three -->
+        {% include landing-section-3.html %}
+
+      <!-- CTA -->
+        {% include landing-section-cta.html %}
+
+        {{ content }}
 
       {% include footer.html %}
 
