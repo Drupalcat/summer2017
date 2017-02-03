@@ -1,17 +1,14 @@
           <section id="tickets" class="wrapper style2 special">
             <div class="inner">
               <header class="major">
-                <h2>Compra la teva entrada</h2>
-                <p>Fes-te amb la teva entrada abans que ningú!</p>
+                <h2>{{  T.buy_tickets }}</h2>
+                <p>{{ T.buy_tickets_message }}</p>
                 <div style="width:100%; text-align:left;" >
                   <iframe  src="//eventbrite.es/tickets-external?eid=24398535677&ref=etckt" frameborder="0" height="339" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
                 </div>
               </header>
               <footer class="footnote">
-                <ul>
-                  <li>Amb l'entrada <em>Love package</em> estaràs ajudant a fer realitat aquest esdeveniment i <a href="files/drupal-summer-barcelona2016_sponsor-ca.pdf#page=5">t'ho agrairem</a>.</li>
-                  <li>Els estudiants i les persones a l'atur tindran entrada gratuïta. Envia'ns un correu a <a href="mailto:esdeveniments@drupal.cat">esdeveniments@drupal.cat</a> per a més detalls.</li>
-                </ul>
+                {{ T.tickets_footnote | markdownify }}
               </footer>
             </div>
           </section>

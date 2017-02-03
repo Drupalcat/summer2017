@@ -10,6 +10,7 @@ layout: compress
 -->
 <html>
   {% include get-current-language.html %}
+  {% assign T = site.t[current_language] %}
 
   {% include head.html %}
 
@@ -24,7 +25,7 @@ layout: compress
         {% include landing-section-banner.html %}
 
       <!-- One -->
-        {% include landing-section-1.html %}
+        {% include landing-section-one.html %}
 
       <!-- Speakers -->
         {% include landing-section-speakers.html %}

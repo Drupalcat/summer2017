@@ -1,7 +1,7 @@
           <section id="sponsors" class="wrapper style5 special">
             <div class="inner">
               <header class="major">
-                <h2>{{ site.t[current_language].sponsors }}</h2>
+                <h2>{{ T.sponsors }}</h2>
                 <ul class="sponsor__list">
                   <li class="sponsor"><a class="sponsor__link" href="http://www.timit2003.net/es"><img class="sponsor__img" src="/assets/images/sponsors/logo-timit.png" alt="Logo de Timit" title="Timit" /></a></li>
                   <li class="sponsor"><a class="sponsor__link" href="http://ateneatech.com"><img class="sponsor__img" src="/assets/images/sponsors/logo-atenea.png" alt="Logo d'Atenea tech" title="Atenea tech" /></a></li>
@@ -29,11 +29,10 @@
                   <li class="sponsor"><a class="sponsor__link" href="https://wunder-group.com/"><img class="sponsor__img" src="/assets/images/sponsors/logo-wunderkraut.svg" alt="Logo Wunder Group" title="Wunder Group" /></a></li>
                   <li class="sponsor"><a class="sponsor__link" href="http://sbit.io/"><img class="sponsor__img" src="/assets/images/sponsors/logo-sbitio.svg" alt="Logo sbit.io" title="sbit.io" /></a></li>
                 </ul>
-                <h4 class="sponsor__title">Vols veure el teu logo aqui?</h4>
+                <h4 class="sponsor__title">{{ T.logo_here }} </h4>
 
-                <p class="sponsor__text">L'objectiu del Drupal Summer Barcelona és ser una conferència assequible. El preu de les entrades serà assequible per a que qualsevol interessat en el Drupal pugui assistir i apendre.</br>
-                Per a que això sigui una realitat necessitem l'ajuda de patrocinadors. Revisa el document enllaçat a continuació si estàs interessat en patrocinar. No dubtis a posar-te en contacte amb nosaltres si tens comentaris o necessites més informació a <a href="mailto:esdeveniments@drupal.cat">esdeveniments@drupal.cat</a></p>
-                <a href="files/drupal-summer-barcelona2016_sponsor-ca.pdf" class="button special">Veure patrocinis</a>
+                <p class="sponsor__text">{{ T.sponsors_text }} <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+                <a href="{{ T.sponsors_file }}" class="button special">{{  T.see_sponsors }}</a>
               </header>
             </div>
           </section>

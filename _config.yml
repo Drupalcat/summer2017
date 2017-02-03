@@ -5,7 +5,7 @@
 title: Drupal Summer Barcelona
 owner: Your Name # or company name
 first_published: 2017 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+email: esdeveniments@drupal.cat
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 social:
@@ -102,6 +102,27 @@ t:
           a fora.
     featured_speakers: Ponents destacats
     sponsors: Patrocinis
+    sponsors_text: >
+      L'objectiu del Drupal Summer Barcelona és ser una conferència assequible.
+      El preu de les entrades serà assequible per a que qualsevol interessat en el Drupal
+      pugui assistir i apendre.</br>
+
+        Per a que això sigui una realitat necessitem l'ajuda de patrocinadors. Revisa
+        el document enllaçat a continuació si estàs interessat en patrocinar. No dubtis
+        a posar-te en contacte amb nosaltres si tens comentaris o necessites més
+        informació a
+    sponsors_file: /files/drupal-summer-barcelona2017_sponsor-ca.pdf
+    see_sponsors: Veure patrocinis
+    schedule: Horari
+    logo_here: Vols veure el teu logo aqui?
+    buy_tickets: Compra la teva entrada
+    buy_tickets_message: Fes-te amb la teva entrada abans que ningú!
+    tickets_footnote: >
+      - Amb l'entrada *Love package* estaràs ajudant a fer realitat aquest esdeveniment
+      i [t'ho agrairem](/files/drupal-summer-barcelona2017_sponsor-ca.pdf#page=5).
+
+      - Els estudiants i les persones a l'atur tindran entrada gratuïta. Envia'ns un correu
+      a [esdeveniments@drupal.cat](mailto:esdeveniments@drupal.cat) per a més detalls.
 
   en:
     description: >
@@ -123,6 +144,27 @@ t:
           designers, project managers, users and other professionals.
     featured_speakers: Featured speakers
     sponsors: Sponsors
+    sponsors_text: >
+      EN L'objectiu del Drupal Summer Barcelona és ser una conferència assequible.
+      El preu de les entrades serà assequible per a que qualsevol interessat en el Drupal
+      pugui assistir i apendre.</br>
+
+        Per a que això sigui una realitat necessitem l'ajuda de patrocinadors. Revisa
+        el document enllaçat a continuació si estàs interessat en patrocinar. No dubtis
+        a posar-te en contacte amb nosaltres si tens comentaris o necessites més
+        informació a
+    sponsors_file: /files/drupal-summer-barcelona2017_sponsor-en.pdf
+    see_sponsors: See sponsors
+    schedule: Schedule
+    logo_here: Do you want to see your logo here?
+    buy_tickets: Buy tickets
+    buy_tickets_message: Get your tickets before anyone else!
+    tickets_footnote: >
+      - With your *Love package* ticket you will help this event to become a reality. 
+      We want to thank you [thank you](/files/drupal-summer-barcelona2017_sponsor-en.pdf#page=5) for that.
+
+      - Students and unemployed will have free admission. Send us an email to
+      [esdeveniments@drupal.cat](mailto:esdeveniments@drupal.cat) for further details.
 
   es:
     description: >
@@ -146,6 +188,27 @@ t:
           conocer el ecosistema de Drupal local fuera.
     featured_speakers: Ponentes destacados
     sponsors: Patrocinios
+    sponsors_text: >
+      ES L'objectiu del Drupal Summer Barcelona és ser una conferència assequible.
+      El preu de les entrades serà assequible per a que qualsevol interessat en el Drupal
+      pugui assistir i apendre.</br>
+
+        Per a que això sigui una realitat necessitem l'ajuda de patrocinadors. Revisa
+        el document enllaçat a continuació si estàs interessat en patrocinar. No dubtis
+        a posar-te en contacte amb nosaltres si tens comentaris o necessites més
+        informació a
+    sponsors_file: /files/drupal-summer-barcelona2017_sponsor-es.pdf
+    see_sponsors: Ver patrocinios
+    schedule: Horario
+    logo_here: ¿Quieres ver tu logo aquí?
+    buy_tickets: Compra tu entrada
+    buy_tickets_message: Consigue tu entrada antes que nadie!
+    tickets_footnote: >
+      - Con la entrada *Love package* estarás ayudando a hacer realidad este evento y
+      [te lo agradeceremos](/files/drupal-summer-barcelona2017_sponsor-es.pdf#page=5).
+
+      - Els estudiants i les persones a l'atur tindran entrada gratuïta. Envia'ns un correu
+      a [esdeveniments@drupal.cat](mailto:esdeveniments@drupal.cat) per a més detalls.
 
 # Main menu
 main-menu:

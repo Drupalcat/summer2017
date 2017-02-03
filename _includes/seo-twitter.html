@@ -2,5 +2,5 @@
 <meta name="twitter:site" content="@{{ site.twitter_username }}">
 <meta name="twitter:creator" content="@{{ site.twitter_username }}">
 <meta name="twitter:title" content="{{ page.title }}">
-<meta name="twitter:image" content="{% if page.seo.image %}{{ site.url }}{{ page.seo.image }}{% else %}{{site.seo.default_image}}{% endif %}" />
-<meta name="twitter:description" content="{% if page.seo.description %}{{ page.seo.description }}{% else %}{{site.t[current_language].description}}{% endif %}" />
+<meta name="twitter:image" content="{% if page.seo.image %}{{ site.url }}{{ page.seo.image }}{% else %}{{site.seo.default_image }}{% endif %}" />
+<meta name="twitter:description" content="{% if page.seo.description %}{{ page.seo.description }}{% else %}{{ T.description }}{% endif %}" />
