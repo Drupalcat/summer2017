@@ -1494,7 +1494,6 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 			@include vendor('transform', 'scale(1)');
 			@include vendor('transition', ('transform 0.5s ease', 'opacity 0.5s ease'));
 			display: inline-block;
-			font-size: 1.75em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
@@ -1601,6 +1600,50 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 			}
 		}
 	}
+
+
+.banner{
+  &__logo {
+    width: 45%;
+    margin: 0 auto 10vh;
+    max-height: 50vh;
+
+    @include breakpoint(xlarge) {
+      width: 40%;
+    }
+
+    @include breakpoint(large) {
+      width: 35%;
+    }
+
+    @include breakpoint(medium) {
+      width: 50%;
+    }
+
+    @include breakpoint(small) {
+      width: 70%;
+    }
+
+    @include breakpoint(xsmall) {
+      width: 100%;
+    }
+
+    &-image {
+      width: 100%;
+    }
+  }
+
+  &__slogan {
+    font-size: 1em;
+    font-weight: 400;
+
+    strong {
+      display: block;
+      font-size: 1.2em;
+      font-weight: 800;
+    }
+  }
+}
 
 	body.is-loading {
 		#banner {
@@ -1833,5 +1876,102 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 			}
 		}
 	}
+
+	/* Speakers */
+.speakers-list {
+  margin-bottom: 4em;
+}
+.speaker {
+  display: inline-block;
+  border: none;
+  width: 24%;
+  margin-bottom: 1rem;
+
+  @include breakpoint(small) {
+    width: 45%;
+  }
+
+  @include breakpoint(xsmall) {
+    width: 100%;
+  }
+}
+.speaker__img {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 90%;
+  max-width: 220px;
+}
+.speaker__name {
+  clear: left;
+  display: block;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.speakers-criteria {
+  font-size: 0.8rem;
+}
+
+/* Sponsors*/
+.sponsor {
+  display: inline-block;
+  list-style: none;
+  width: 16.1%;
+  padding: 0;
+  margin-bottom: 0.5em;
+
+  @include breakpoint(medium) {
+    width: 32%;
+    margin-bottom: 1em;
+  }
+
+  @include breakpoint(xsmall) {
+    width: 45%;
+    margin-bottom: 2em;
+  }
+
+  &:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+  }
+
+  &__list {
+    margin: 2em 0 5em;
+    padding: 0;
+  }
+
+  &__link {
+    border: none;
+  }
+
+  &__img {
+    max-width: 90%;
+    max-height: 100px;
+    vertical-align: middle;
+  }
+
+  &__img--vertical {
+    max-width: 75%;
+    max-height: 170px;
+    vertical-align: middle;
+
+    @include breakpoint(medium) {
+      max-height: 150px;
+    }
+
+    @include breakpoint(small) {
+      max-height: 200px;
+    }
+  }
+
+  &__title {
+    border: 0;
+  }
+
+  &__text {
+    max-width: 60%;
+    margin: 0 auto 2em;
+  }
+}
 
 	@import 'language-switcher';

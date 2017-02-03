@@ -85,23 +85,67 @@ t:
       desenvolupadors, dissenyadors, caps de projecte, usuaris i altres
       professionals, i alhora donar a conèixer l’ecosistema del Drupal local a
       fora.
+    slogan:  El proper gran esdeveniment Drupal a Barcelona
     learn_more: descobreix més
+    event_date: 7 - 9 juliol
     activate: activar
+    landing_section1:
+      title: Drupal 8 és aquí
+      content: >
+        Uneix-te a desenvolupadors, dissenyadors i drupalers durant 3 dies de
+        sessions, sprints, formacions i activitats socials.
+
+          El Drupal Summer Barcelona és un esdeveniment centrat en el Drupal
+          per a potenciar-ne l’ús i interconnectar l’ecosistema d’empreses,
+          desenvolupadors, dissenyadors, caps de projecte, usuaris i altres
+          professionals, i alhora donar a conèixer l’ecosistema del Drupal local
+          a fora.
+    featured_speakers: Ponents destacats
+    sponsors: Patrocinis
+
   en:
     description: >
       Drupal Summer Barcelona is an event which aims to promote the use of
       Drupal and to interconnect businesses, agencies, developers,
       designers, project managers, users and other professionals.
+    slogan:  Next big Drupal event in Barcelona
     learn_more: discover more
+    event_date: 7 - 9 july
     activate: activate
+    landing_section1:
+      title: Drupal 8 is here
+      content: >
+        Join developers, designers and drupalistas for two days of sessions,
+        sprints,trainings and social activities.
+
+          Drupal Summer Barcelona is an event which aims to promote the use
+          of Drupal and to interconnect businesses, agencies, developers,
+          designers, project managers, users and other professionals.
+    featured_speakers: Featured speakers
+    sponsors: Sponsors
+
   es:
     description: >
       El Drupal Summer Barcelona es un evento centrado en Drupal para potenciar
       su uso e interconectar el ecosistema de empresas, desarrolladores,
       diseñadores, jefes de proyecto, usuarios y otros profesionales, y a la vez
       dar a conocer el ecosistema de Drupal local fuera.
+    slogan: El próximo gran evento Drupal en Barcelona
     learn_more: descubre más
+    event_date: 7 - 9 julio
     activate: activar
+    landing_section1:
+      title: Drupal 8 está aquí
+      content: >
+        Únete a desarrolladores, diseñadores y drupaleros durante 3 días de
+        sesiones, sprints, formaciones y actividades sociales.
+
+          El Drupal Summer Barcelona es un evento centrado en Drupal para
+          potenciar su uso e interconectar el ecosistema de empresas, desarrolladores,
+          diseñadores, jefes de proyecto, usuarios y otros profesionales, y a la vez dar a
+          conocer el ecosistema de Drupal local fuera.
+    featured_speakers: Ponentes destacados
+    sponsors: Patrocinios
 
 # Main menu
 main-menu:

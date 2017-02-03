@@ -1,10 +1,10 @@
-          <section id="banner">
+          <section id="banner" class="banner">
             <div class="inner">
-              <h2>{{ site.title }}</h2>
-              <p>{{ site.t[current_language].description | markdownify }}</p>
-              <ul class="actions">
-                <li><a href="#" class="button special">{{ site.t[current_language].activate }}</a></li>
-              </ul>
+            <div class="banner__logo"><img class="banner__logo-image" src="/assets/images/logo-white.svg" /></div>
+              <h2 class="banner__slogan">
+              {{ site.t[current_language].slogan }}<br/>
+                <strong>{{ site.t[current_language].event_date }}</strong>
+                </h2>
             </div>
             <a href="#one" class="more scrolly">{{ site.t[current_language].learn_more }}</a>
           </section>
