@@ -1,0 +1,77 @@
+<svg width="140" height="140" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-69 1544)" figma:type="canvas">
+<g id="Group" style="mix-blend-mode:normal;" figma:type="symbol">
+<g id="Rectangle" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path0_fill" transform="matrix(0.707107 0.707107 -0.707107 0.707107 139 -1492)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path1_fill" transform="matrix(1 0 0 1 123 -1544)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(87 -1543)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_fill" transform="matrix(-1.83697e-16 -1 1 -1.83697e-16 140 -1492)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path0_fill" transform="matrix(0.707107 0.707107 -0.707107 0.707107 139 -1492)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path3_fill" transform="matrix(1 0 0 1 123 -1421)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_fill" transform="matrix(6.12323e-17 1 -1 6.12323e-17 138 -1456.64)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_fill" transform="matrix(-1 1.22465e-16 -1.22465e-16 -1 191 -1405.64)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path4_fill" transform="translate(69 -1544)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path4_fill" transform="matrix(6.12323e-17 -1 1 6.12323e-17 69 -1404)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path4_fill" transform="matrix(-1 -1.22465e-16 1.22465e-16 -1 209 -1404)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path5_fill" transform="matrix(0.707107 0.707107 -0.707107 0.707107 139 -1491.77)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path6_fill" transform="matrix(1 0 0 1 69 -1490)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_fill" transform="matrix(-1 1.22465e-16 -1.22465e-16 -1 121.322 -1475.21)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_fill" transform="matrix(-1.83697e-16 -1 1 -1.83697e-16 70.3223 -1422.21)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path5_fill" transform="matrix(0.707107 0.707107 -0.707107 0.707107 139 -1491.77)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle" style="mix-blend-mode:normal;" figma:type="rounded-rectangle">
+<use xlink:href="#path6_fill" transform="matrix(1 0 0 1 193 -1490)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(156.678 -1473.21)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Vector 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path2_fill" transform="matrix(6.12323e-17 1 -1 6.12323e-17 207.678 -1526.21)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Rectangle 2" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path4_fill" transform="matrix(6.12323e-17 1 -1 6.12323e-17 209 -1544)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 5.68434e-14 0L 25 0L 25 25L 5.68434e-14 25L 5.68434e-14 0Z"/>
+<path id="path1_fill" d="M 0 0L 32 0L 32 16L 0 16L 0 0Z"/>
+<path id="path2_fill" d="M 51 32L 51 51L 0 0L 19 0L 51 32Z"/>
+<path id="path3_fill" d="M 0 0L 32 0L 32 17L 0 17L 0 0Z"/>
+<path id="path4_fill" d="M 0 0L 18 0L 0 18L 0 0Z"/>
+<path id="path5_fill" d="M 0 0L 25 0L 25 25L 0 25L 0 0Z"/>
+<path id="path6_fill" d="M 0 0L 16 0L 16 32L 0 32L 0 0Z"/>
+</defs>
+</svg>
