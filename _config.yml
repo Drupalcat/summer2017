@@ -7,7 +7,7 @@ owner: Your Name # or company name
 first_published: 2017 # if migrating another site, the year of your first publish
 email: esdeveniments@drupal.cat
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://2017summer.drupal.cat" # the base hostname & protocol for your site
 social:
   twitter: https://twitter.com/<username>
   github: https://github.com/<username>
@@ -57,8 +57,8 @@ markdown: kramdown
 # Directories to include
 include: ['_pages']
 
-# Compress configuration to remove white spaces
-# and line breaks
+# Compress configuration to remove unnecessary 
+# white spaces and line breaks
 compress_html:
   clippings: []
   comments: []
@@ -75,140 +75,6 @@ seo:
 # Site languages: used for the language switcher
 # first element is the default language
 enabled_languages: ["ca", "en", "es"]
-
-# Translations
-t:
-  ca:
-    description: >
-      El Drupal Summer Barcelona és un esdeveniment centrat en el Drupal per a
-      potenciar-ne l’ús i interconnectar l’ecosistema d’empreses,
-      desenvolupadors, dissenyadors, caps de projecte, usuaris i altres
-      professionals, i alhora donar a conèixer l’ecosistema del Drupal local a
-      fora.
-    slogan:  El proper gran esdeveniment Drupal a Barcelona
-    learn_more: descobreix més
-    event_date: 7 - 9 juliol
-    activate: activar
-    landing_section1:
-      title: Drupal 8 és aquí
-      content: >
-        Uneix-te a desenvolupadors, dissenyadors i drupalers durant 3 dies de
-        sessions, sprints, formacions i activitats socials.
-
-          El Drupal Summer Barcelona és un esdeveniment centrat en el Drupal
-          per a potenciar-ne l’ús i interconnectar l’ecosistema d’empreses,
-          desenvolupadors, dissenyadors, caps de projecte, usuaris i altres
-          professionals, i alhora donar a conèixer l’ecosistema del Drupal local
-          a fora.
-    featured_speakers: Ponents destacats
-    sponsors: Patrocinis
-    sponsors_text: >
-      L'objectiu del Drupal Summer Barcelona és ser una conferència assequible.
-      El preu de les entrades serà assequible per a que qualsevol interessat en el Drupal
-      pugui assistir i apendre.</br>
-
-        Per a que això sigui una realitat necessitem l'ajuda de patrocinadors. Revisa
-        el document enllaçat a continuació si estàs interessat en patrocinar. No dubtis
-        a posar-te en contacte amb nosaltres si tens comentaris o necessites més
-        informació a
-    sponsors_file: /files/drupal-summer-barcelona2017_sponsor-ca.pdf
-    see_sponsors: Veure patrocinis
-    schedule: Horari
-    logo_here: Vols veure el teu logo aqui?
-    buy_tickets: Compra la teva entrada
-    buy_tickets_message: Fes-te amb la teva entrada abans que ningú!
-    tickets_footnote: >
-      - Amb l'entrada *Love package* estaràs ajudant a fer realitat aquest esdeveniment
-      i [t'ho agrairem](/files/drupal-summer-barcelona2017_sponsor-ca.pdf#page=5).
-
-      - Els estudiants i les persones a l'atur tindran entrada gratuïta. Envia'ns un correu
-      a [esdeveniments@drupal.cat](mailto:esdeveniments@drupal.cat) per a més detalls.
-
-  en:
-    description: >
-      Drupal Summer Barcelona is an event which aims to promote the use of
-      Drupal and to interconnect businesses, agencies, developers,
-      designers, project managers, users and other professionals.
-    slogan:  Next big Drupal event in Barcelona
-    learn_more: discover more
-    event_date: 7 - 9 july
-    activate: activate
-    landing_section1:
-      title: Drupal 8 is here
-      content: >
-        Join developers, designers and drupalistas for two days of sessions,
-        sprints,trainings and social activities.
-
-          Drupal Summer Barcelona is an event which aims to promote the use
-          of Drupal and to interconnect businesses, agencies, developers,
-          designers, project managers, users and other professionals.
-    featured_speakers: Featured speakers
-    sponsors: Sponsors
-    sponsors_text: >
-      EN L'objectiu del Drupal Summer Barcelona és ser una conferència assequible.
-      El preu de les entrades serà assequible per a que qualsevol interessat en el Drupal
-      pugui assistir i apendre.</br>
-
-        Per a que això sigui una realitat necessitem l'ajuda de patrocinadors. Revisa
-        el document enllaçat a continuació si estàs interessat en patrocinar. No dubtis
-        a posar-te en contacte amb nosaltres si tens comentaris o necessites més
-        informació a
-    sponsors_file: /files/drupal-summer-barcelona2017_sponsor-en.pdf
-    see_sponsors: See sponsors
-    schedule: Schedule
-    logo_here: Do you want to see your logo here?
-    buy_tickets: Buy tickets
-    buy_tickets_message: Get your tickets before anyone else!
-    tickets_footnote: >
-      - With your *Love package* ticket you will help this event to become a reality. 
-      We want to thank you [thank you](/files/drupal-summer-barcelona2017_sponsor-en.pdf#page=5) for that.
-
-      - Students and unemployed will have free admission. Send us an email to
-      [esdeveniments@drupal.cat](mailto:esdeveniments@drupal.cat) for further details.
-
-  es:
-    description: >
-      El Drupal Summer Barcelona es un evento centrado en Drupal para potenciar
-      su uso e interconectar el ecosistema de empresas, desarrolladores,
-      diseñadores, jefes de proyecto, usuarios y otros profesionales, y a la vez
-      dar a conocer el ecosistema de Drupal local fuera.
-    slogan: El próximo gran evento Drupal en Barcelona
-    learn_more: descubre más
-    event_date: 7 - 9 julio
-    activate: activar
-    landing_section1:
-      title: Drupal 8 está aquí
-      content: >
-        Únete a desarrolladores, diseñadores y drupaleros durante 3 días de
-        sesiones, sprints, formaciones y actividades sociales.
-
-          El Drupal Summer Barcelona es un evento centrado en Drupal para
-          potenciar su uso e interconectar el ecosistema de empresas, desarrolladores,
-          diseñadores, jefes de proyecto, usuarios y otros profesionales, y a la vez dar a
-          conocer el ecosistema de Drupal local fuera.
-    featured_speakers: Ponentes destacados
-    sponsors: Patrocinios
-    sponsors_text: >
-      ES L'objectiu del Drupal Summer Barcelona és ser una conferència assequible.
-      El preu de les entrades serà assequible per a que qualsevol interessat en el Drupal
-      pugui assistir i apendre.</br>
-
-        Per a que això sigui una realitat necessitem l'ajuda de patrocinadors. Revisa
-        el document enllaçat a continuació si estàs interessat en patrocinar. No dubtis
-        a posar-te en contacte amb nosaltres si tens comentaris o necessites més
-        informació a
-    sponsors_file: /files/drupal-summer-barcelona2017_sponsor-es.pdf
-    see_sponsors: Ver patrocinios
-    schedule: Horario
-    logo_here: ¿Quieres ver tu logo aquí?
-    buy_tickets: Compra tu entrada
-    buy_tickets_message: Consigue tu entrada antes que nadie!
-    tickets_footnote: >
-      - Con la entrada *Love package* estarás ayudando a hacer realidad este evento y
-      [te lo agradeceremos](/files/drupal-summer-barcelona2017_sponsor-es.pdf#page=5).
-
-      - Els estudiants i les persones a l'atur tindran entrada gratuïta. Envia'ns un correu
-      a [esdeveniments@drupal.cat](mailto:esdeveniments@drupal.cat) per a més detalls.
 
 # Main menu
 main-menu:
