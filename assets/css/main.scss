@@ -1260,6 +1260,10 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 			@include wrapper(accent7);
 		}
 
+		&.style6 {
+			@include wrapper(accent2);
+		}
+
 		@include breakpoint(medium) {
 			@include padding(4em, 3em);
 		}
@@ -1498,17 +1502,18 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 			padding: 0.35em 1em;
 			position: relative;
 			z-index: 1;
+			color: _palette('border');
 
-			&:before, &:after {
-				@include vendor('transition', 'width 0.85s ease');
-				@include vendor('transition-delay', '0.25s');
-				background: _palette(fg-bold);
-				content: '';
-				display: block;
-				height: 2px;
-				position: absolute;
-				width: 100%;
-			}
+			// &:before, &:after {
+			// 	@include vendor('transition', 'width 0.85s ease');
+			// 	@include vendor('transition-delay', '0.25s');
+			// 	background: _palette('border');
+			// 	content: '';
+			// 	display: block;
+			// 	height: 3px;
+			// 	position: absolute;
+			// 	width: 100%;
+			// }
 
 			&:before {
 				top: 0;
@@ -1536,7 +1541,7 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 			@include vendor('transform', 'translateY(0)');
 			border: none;
 			bottom: 0;
-			color: inherit;
+			color: _palette('border');
 			font-size: 0.8em;
 			height: 8.5em;
 			left: 50%;
@@ -1633,6 +1638,15 @@ $baseurl: '{{ site.baseurl }}/assets/images';
     }
   }
 
+	&__border {
+		position: absolute;
+		border: 6px solid _palette(border);
+		width: 80vw;
+		height: 70vh;
+		top: 10vh;
+		left: 10vw
+	}
+
   &__slogan {
     font-size: 1em;
     font-weight: 400;
@@ -1641,6 +1655,7 @@ $baseurl: '{{ site.baseurl }}/assets/images';
       display: block;
       font-size: 1.2em;
       font-weight: 800;
+			color: _palette('border');
     }
   }
 }
@@ -1719,11 +1734,10 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")'));
-			background-attachment: fixed;
+			background-image: url("images/texture.svg");
 			background-position: center center;
-			background-repeat: no-repeat;
-			background-size: cover;
+			background-repeat: repeat;
+			background-size: 140px 140px;
 			text-align: center;
 
 			h2 {
@@ -1844,11 +1858,10 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")'));
-			background-attachment: fixed;
+			background-image: url("images/texture.svg");
 			background-position: center center;
-			background-repeat: no-repeat;
-			background-size: cover;
+			background-repeat: repeat;
+			background-size: 140px 140px;
 			padding-top: 0;
 		}
 
@@ -1865,10 +1878,10 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")'));
+				background-image: url("images/texture.svg");
 				background-position: center center;
-				background-repeat: no-repeat;
-				background-size: cover;
+				background-repeat: repeat;
+				background-size: 140px 140px;
 			}
 
 			#footer {
