@@ -1,0 +1,78 @@
+- name: TiMiT
+  logo: /assets/images/sponsors/logo-timit.png
+  url: http://www.timit2003.net/ca
+- name: Atenea tech
+  logo: /assets/images/sponsors/logo-atenea.png
+  url: http://ateneatech.com
+- name: Ymbra
+  logo: /assets/images/sponsors/logo-ymbra.svg
+  url: http://ymbra.com
+- name: Òmada Interactiva
+  logo: /assets/images/sponsors/logo-omada-interactiva.svg
+  url: http://www.omada.es
+- name: Introbay
+  logo: /assets/images/sponsors/logo-introbay.svg
+  url: https://introbay.com
+- name: Swiftcircle
+  logo: /assets/images/sponsors/logo-swiftcircle.svg
+  url: http://swiftcircle.com/
+- name: LliureTIC
+  logo: /assets/images/sponsors/logo-lliure-tic.png
+  url: http://lliuretic.cat/
+#- name: Rojomorgan
+#  logo: /assets/images/sponsors/logo-rojo-morgan.svg
+#  url: http://rojomorgan.com/
+#- name: Drupaleros.es
+#  logo: /assets/images/sponsors/logo-drupaleros.png
+#  url: http://www.drupaleros.es
+#  class-modifier: --vertical
+- name: El Teb
+  logo: /assets/images/sponsors/logo-teb.svg
+  url: http://www.elteb.org
+  class-modifier: --vertical
+#- name: Smart Content
+#  logo: /assets/images/sponsors/logo-smart-content.png
+#  url: http://www.smart-content.net
+#- name: Asertic
+#  logo: /assets/images/sponsors/logo-asertic.svg
+#  url: http://www.asertic.com/
+#- name: Metadrop
+#  logo: /assets/images/sponsors/logo-metadrop.svg
+#  url: http://www.metadrop.net/
+#  class-modifier: --vertical
+#- name: Lingotek
+#  logo: /assets/images/sponsors/logo-lingotek.svg
+#  url: http://www.lingotek.com/drupal
+#- name: ASPgems
+#  logo: /assets/images/sponsors/logo-asp-gems.svg
+#  url: https://aspgems.com/
+#- name: Front.id
+#  logo: /assets/images/sponsors/logo-frontid.png
+#  url: http://front.id/
+#- name: Bubalu
+#  logo: /assets/images/sponsors/logo-bubalu.svg
+#  url: http://bubalu.cat/
+#- name: Balidea
+#  logo: /assets/images/sponsors/logo-balidea.svg
+#  url: http://www.balidea.com/
+#- name: ASMWS
+#  logo: /assets/images/sponsors/logo-asm.png
+#  url: http://www.asmws.com/
+#- name: La Drupalera
+#  logo: /assets/images/sponsors/logo-ladrupalera.svg
+#  url: http://www.ladrupalera.com
+#- name: ACK STORM
+#  logo: /assets/images/sponsors/logo-ackstorm.svg
+#  url: http://www.ackstorm.es
+#- name: Solucionex
+#  logo: /assets/images/sponsors/logo-solucionex.svg
+#  url: http://www.solucionex.com/
+#- name: Softescu
+#  logo: /assets/images/sponsors/logo-softescu.svg
+#  url: http://softescu.com/drupal-development-drupal-experts
+#- name: Wunder Group
+#  logo: /assets/images/sponsors/logo-wunderkraut.svg
+#  url: https://wunder-group.com/
+#- name: sbit.io
+#  logo: /assets/images/sponsors/logo-sbitio.svg
+#  url: http://sbit.io/

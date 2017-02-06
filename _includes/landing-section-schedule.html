@@ -5,38 +5,38 @@
                 <table>
                   <thead>
                     <tr>
-                      <th width="33%">Divendres 8</th>
-                      <th width="33%">Dissabte 9</th>
-                      <th width="33%">Diumenge 10</th>
+                      <th width="33%">{{ T.friday[current_language] }}</th>
+                      <th width="33%">{{ T.saturday[current_language] }}</th>
+                      <th width="33%">{{ T.sunday[current_language] }}</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>
                         <ul>
-                          <li>Tallers</li>
-                          <li>Sprints</li>
+                          <li>{{ T.workshops[current_language] }}</li>
+                          <li>{{ T.sprints[current_language] }}</li>
                         </ul>
                       </td>
                       <td>
                         <ul>
-                          <li>Sessions</li>
-                          <li>Sprints</li>
-                          <li><a href="summer-night-ca.html">Summer party!</a></li>
+                          <li>{{ T.sessions[current_language] }}</li>
+                          <li>{{ T.sprints[current_language] }}</li>
+                          <li><a href="{{ T.summer_party_url[current_language] }}">{{ T.summer_party[current_language] }}</a></li>
                         </ul>
-                      </th>
+                      </td>
                       <td>
                         <ul>
-                          <li>Sprints</li>
-                          <li>Mentoring session / Iniciació contribució</li>
+                          <li>{{ T.sprints[current_language] }}</li>
+                          <li>{{ T.mentoring_session[current_language] }}</li>
                         </ul>
                       </td>
                     </tr>
                   </tbody>
                 </table>
-                <p>Totes les xerrades i sessions de formació estan incloses a l'entrada.</p>
+                <p>{{ T.sessions_included[current_language] }}</p>
 
-                <p class="text-centered"><a href="schedule-friday.html" class="button ">Horari divendres</a> <a href="schedule-saturday.html" class="button special">Horari dissabte</a> <a href="schedule-sunday.html" class="button ">Horari diumenge</a> <p>
+                <p class="text-centered"><a href="schedule-friday.html" class="button ">{{ T.friday_schedule[current_language] }}</a> <a href="schedule-saturday.html" class="button special">{{ T.saturday_schedule[current_language] }}</a> <a href="schedule-sunday.html" class="button ">{{ T.sunday_schedule[current_language] }}</a> <p>
               </div>
             </div>
           </section>
