@@ -1,14 +1,14 @@
           <section id="tickets" class="wrapper style2 special">
             <div class="inner">
               <header class="major">
-                <h2>{{  T.buy_tickets }}</h2>
-                <p>{{ T.buy_tickets_message }}</p>
+                <h2>{{  T.buy_tickets[current_language] }}</h2>
+                <p>{{ T.buy_tickets_message[current_language] }}</p>
                 <div style="width:100%; text-align:left;" >
                   <iframe  src="//eventbrite.es/tickets-external?eid=24398535677&ref=etckt" frameborder="0" height="339" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
                 </div>
               </header>
               <footer class="footnote">
-                {{ T.tickets_footnote | markdownify }}
+                {{ T.tickets_footnote[current_language] | markdownify }}
               </footer>
             </div>
           </section>
