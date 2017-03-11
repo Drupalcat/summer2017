@@ -81,10 +81,10 @@ main-menu:
   ca:
     - name: inici
       url: /ca/
-    - name: ponents destacats
-      url: "/ca/#speakers"
-    - name: elements
-      url:  /elements.html
+#    - name: ponents destacats
+#      url: "/ca/#speakers"
+#    - name: elements
+#      url:  /elements.html
     - name: patrocinadors
       url: "/ca/#sponsors"
     - name: codi de conducta
@@ -92,10 +92,10 @@ main-menu:
   en:
     - name: home
       url: /en/
-    - name: featured speakers
-      url: "/en/#speakers"
-    - name: elements
-      url:  /elements.html
+#    - name: featured speakers
+#      url: "/en/#speakers"
+#    - name: elements
+#      url:  /elements.html
     - name: sponsors
       url: "/en/#sponsors"
     - name: code of conduct
@@ -103,10 +103,10 @@ main-menu:
   es:
     - name: inicio
       url: /es/
-    - name: ponenetes destacados
-      url: "/es/#speakers"
-    - name: elementos
-      url:  /elements.html
+#   - name: ponenetes destacados
+#     url: "/es/#speakers"
+#   - name: elementos
+#     url:  /elements.html
     - name: patrocinadores
       url: "/es/#sponsors"
     - name: código de conducta
