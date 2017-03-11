@@ -1589,7 +1589,6 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 
 		@include breakpoint(small) {
 			@include padding(7em, 3em);
-			height: auto;
 			min-height: 0;
 
 			h2 {
@@ -1610,7 +1609,7 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 .banner{
   &__logo {
     width: 45%;
-    margin: 0 auto 10vh;
+    margin: 5vh auto ;
     max-height: 50vh;
 
     @include breakpoint(xlarge) {
@@ -1634,7 +1633,7 @@ $baseurl: '{{ site.baseurl }}/assets/images';
     }
 
     &-image {
-      width: 100%;
+      width: 90%;
     }
   }
 
