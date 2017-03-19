@@ -1790,7 +1790,6 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 
 	#footer {
 		@include padding(6em, 0);
-		background-color: darken(_palette(bg), 8);
 		text-align: center;
 
 		.icons {
@@ -1863,10 +1862,6 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 			background-size: 140px 140px;
 			padding-top: 0;
 		}
-
-		#footer {
-			background-color: darken(transparentize(_palette(bg), 0.05), 50);
-		}
 	}
 
 	body.is-mobile {
@@ -1881,10 +1876,6 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 				background-position: center center;
 				background-repeat: repeat;
 				background-size: 140px 140px;
-			}
-
-			#footer {
-				background-color: darken(_palette(bg), 8);
 			}
 		}
 	}
@@ -1983,6 +1974,10 @@ $baseurl: '{{ site.baseurl }}/assets/images';
   &__text {
     max-width: 60%;
     margin: 0 auto 2em;
+
+		@include breakpoint(small) {
+      max-width: none;
+    }
   }
 }
 
