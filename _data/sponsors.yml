@@ -1,12 +1,12 @@
-- name: TiMiT
-  logo: /assets/images/sponsors/logo-timit.png
-  url: http://www.timit2003.net/ca
-#- name: Atenea tech
-#  logo: /assets/images/sponsors/logo-atenea.png
-#  url: http://ateneatech.com
 - name: Ymbra
   logo: /assets/images/sponsors/logo-ymbra.svg
   url: http://ymbra.com
+- name: TiMiT
+  logo: /assets/images/sponsors/logo-timit.png
+  url: http://www.timit2003.net/ca
+- name: Atenea tech
+  logo: /assets/images/sponsors/logo-atenea.png
+  url: http://ateneatech.com
 #- name: Òmada Interactiva
 #  logo: /assets/images/sponsors/logo-omada-interactiva.svg
 #  url: http://www.omada.es
