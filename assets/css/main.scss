@@ -1799,7 +1799,7 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 				color: _palette(fg-light);
 
 				&:hover {
-					color: _palette(fg);
+					color: _palette(accent6,fg);
 				}
 			}
 		}
@@ -1829,7 +1829,7 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 					color: inherit;
 
 					&:hover {
-						color: _palette(fg);
+						color: _palette(accent6,fg);
 					}
 				}
 
