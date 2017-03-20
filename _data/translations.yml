@@ -107,9 +107,9 @@ sponsors_text:
         información a
 
 sponsors_file:
-  ca: /files/drupal-summer-barcelona2017_sponsor-ca.pdf
-  en: /files/drupal-summer-barcelona2017_sponsor-en.pdf
-  es: /files/drupal-summer-barcelona2017_sponsor-es.pdf
+  ca: /assets/files/drupal-summer-barcelona-2017-sponsor-ca.pdf
+  en: /assets/files/drupal-summer-barcelona-2017-sponsor-en.pdf
+  es: /assets/files/drupal-summer-barcelona-2017-sponsor-es.pdf
 
 see_sponsors:
   ca: Veure patrocinis
