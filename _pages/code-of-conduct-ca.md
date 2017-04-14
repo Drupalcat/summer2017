@@ -17,7 +17,7 @@ El Codi de Conducta de Drupal (https://www.drupal.org/dcoc) defineix els nostres
 
 El Drupal simplement no existiria sense la seva comunitat. Volem que tots els participants del Drupal Summer Barcelona tinguin una experiència extraordinària, tant dins com fora de les activitats i xerrades oficials. L’objectiu d’aquest document no és restringir la diversitat d’idees i expressió a la comunitat Drupal; al contrari, cerca cridar la atenció a potencials accions que podrien arribar a alienar a membres valuosos – i també possibles membres – de la comunitat.
 
-## SOM CONSIDERATS AMB ELS DEMÉS
+## SOM CONSIDERATS AMB ELS ALTRES
 
 El Drupal Summer Barcelona és un esdeveniment internacional que atreu una gran diversitat de persones de diferents realitats ètniques, culturals i religioses. Entenem que la comunicació intercultural pot ser moltes vegades complicada, i estimulem a tots perquè considerin tant l’impacte de les seves accions vers altres amb diferents realitats i experiències, com les intencions honestes d’aquells que puguin inadvertidament haver ofès d’altres.
 
