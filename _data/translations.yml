@@ -15,33 +15,33 @@ description:
       diseñadores, jefes de proyecto, usuarios y otros profesionales, y a la vez
       dar a conocer el ecosistema de Drupal local fuera.
 
-slogan:  
+slogan:
   ca: El proper gran esdeveniment Drupal a Barcelona
   en: Next big Drupal event in Barcelona
   es: El próximo gran evento Drupal en Barcelona
 
-learn_more: 
+learn_more:
   ca: descobreix més
   en: discover more
   es: descubre más
 
-event_date: 
+event_date:
   ca: 30 de juny - 2 de juliol
   en: June 30 - July 2
   es: 30 de junio - 2 de julio
 
-activate: 
+activate:
   ca: activar
   en: activate
   es: activar
 
 landing_section1:
-  title: 
+  title:
     ca: Drupal 8 és aquí
     en: Drupal 8 is here
     es: Drupal 8 está aquí
 
-  content: 
+  content:
     ca: >
       Uneix-te a desenvolupadors, dissenyadors i drupalers durant 3 dies de
       sessions, sprints, formacions i activitats socials.
@@ -72,18 +72,18 @@ featured_speakers:
   en: Featured speakers
   es: Ponentes destacados
 
-sponsors: 
+sponsors:
   ca: Patrocinis
   en: Sponsors
   es: Patrocinios
 
-sponsors_text: 
+sponsors_text:
   ca: >
       L'objectiu del Drupal Summer Barcelona és ser una conferència assequible.
-      El preu de les entrades serà assequible per a que qualsevol interessat en el Drupal
-      pugui assistir i apendre.</br>
+      El preu de les entrades serà assequible perquè qualsevol interessat en el Drupal
+      pugui assistir i aprendre.</br>
 
-        Per a que això sigui una realitat necessitem l'ajuda de patrocinadors. Revisa
+        perquè això sigui una realitat necessitem l'ajuda de patrocinadors. Revisa
         el document enllaçat a continuació si estàs interessat en patrocinar. No dubtis
         a posar-te en contacte amb nosaltres si tens comentaris o necessites més
         informació a
@@ -136,7 +136,7 @@ buy_tickets_message:
   en: Get your tickets before anyone else!
   es: Consigue tu entrada antes que nadie!
 
-tickets_footnote: 
+tickets_footnote:
   ca: >
     - Amb l'entrada *Love package* estaràs ajudant a fer realitat aquest esdeveniment
     i [t'ho agrairem](/files/drupal-summer-barcelona2017_sponsor-ca.pdf#page=5).
@@ -144,7 +144,7 @@ tickets_footnote:
     - Els estudiants i les persones a l'atur tindran entrada gratuïta. Envia'ns un correu
     a [esdeveniments@drupal.cat](mailto:esdeveniments@drupal.cat) per a més detalls.
   en: >
-    - With your *Love package* ticket you will help this event to become a reality. 
+    - With your *Love package* ticket you will help this event to become a reality.
       We want to thank you [thank you](/files/drupal-summer-barcelona2017_sponsor-en.pdf#page=5) for that.
 
     - Students and unemployed will have free admission. Send us an email to
