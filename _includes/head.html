@@ -3,13 +3,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.seo.description %}{{ page.seo.description }}{% else %}{{ T.description[current_language] }}{% endif %}">
-  <!--[if lte IE 8]><script src="{{ "/assets/js/ie/html5shiv.js" | prepend: site.baseurl }}"></script><![endif]-->
+  <!--[if lte IE 8]><script src="{{ "/assets/js/ie/html5shiv.js" | prepend: site.baseurl }}?{{ site.data['hash'] }}"></script><![endif]-->
 {% if page.seo.canonical %}
   <link rel="canonical" href="{{ page.seo.canonical }}">
 {% else %}
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 {% endif %}
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}?{{ site.data['hash'] }}" />
   <!--[if lte IE 8]><link rel="stylesheet" href="{{ "/assets/css/ie8.css" | prepend: site.baseurl }}" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="{{ "/assets/css/ie9.css" | prepend: site.baseurl }}" /><![endif]-->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">

@@ -1,8 +1,8 @@
 <!-- Scripts -->
-<script src="{{ "/assets/js-min/jquery.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js-min/jquery.scrollex.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js-min/jquery.scrolly.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js-min/skel.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/assets/js-min/util.js" | prepend: site.baseurl }}"></script>
-<!--[if lte IE 8]><script src="{{ "/assets/js-min/ie/respond.min.js" | prepend: site.baseurl }}"></script><![endif]-->
-<script src="{{ "/assets/js-min/main.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js-min/jquery.min.js" | prepend: site.baseurl }}?{{ site.data['hash'] }}"></script>
+<script src="{{ "/assets/js-min/jquery.scrollex.min.js" | prepend: site.baseurl }}?{{ site.data['hash'] }}"></script>
+<script src="{{ "/assets/js-min/jquery.scrolly.min.js" | prepend: site.baseurl }}?{{ site.data['hash'] }}"></script>
+<script src="{{ "/assets/js-min/skel.min.js" | prepend: site.baseurl }}?{{ site.data['hash'] }}"></script>
+<script src="{{ "/assets/js-min/util.js" | prepend: site.baseurl }}?{{ site.data['hash'] }}"></script>
+<!--[if lte IE 8]><script src="{{ "/assets/js-min/ie/respond.min.js?" | prepend: site.baseurl }}{{ site.data['hash'] }}"></script><![endif]-->
+<script src="{{ "/assets/js-min/main.js" | prepend: site.baseurl }}?{{ site.data['hash'] }}"></script>
