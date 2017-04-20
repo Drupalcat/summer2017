@@ -55,9 +55,19 @@ markdown: kramdown
 #  style: compressed
 
 # Directories to include
-include: ['_pages']
+include:
+  - _pages
 
-# Compress configuration to remove unnecessary 
+# Directories and files to exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - _app
+  - gulpfile.js
+  - node_modules
+  - package.json
+
+# Compress configuration to remove unnecessary
 # white spaces and line breaks
 compress_html:
   clippings: []
