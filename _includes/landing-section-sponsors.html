@@ -10,7 +10,7 @@
                 <h4 class="sponsor__title">{{ T.logo_here[current_language] }} </h4>
 
                 <p class="sponsor__text">{{ T.sponsors_text[current_language] }} <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-                <a href="{{ T.sponsors_file[current_language] }}" class="button special">{{  T.see_sponsors[current_language] }}</a>
+                <a href="{{ T.sponsors_file[current_language] }}?{{ site.data['hash'] }}" class="button special" target="_blank">{{  T.see_sponsors[current_language] }}</a>
               </header>
             </div>
           </section>
