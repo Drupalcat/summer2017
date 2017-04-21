@@ -1981,4 +1981,32 @@ $baseurl: '{{ site.baseurl }}/assets/images';
   }
 }
 
+.schedule-container{
+	@include vendor('display', 'flex');
+	@include vendor('flex-wrap', 'wrap');
+	@include vendor('align-items', 'stretch');
+}
+
+.card{
+	width: 25%;
+	margin-bottom: .5em;
+
+	@include breakpoint(small) {
+		width: 50%;
+	}
+	&__title{
+		font-size: 0.9em;
+		font-weight: 600;
+		padding: .5em;
+	}
+	&__detail{
+		border-top: 2px solid _palette(border);
+		border-bottom: 1px solid _palette(border);
+		padding: .5em;
+		min-height: 10em;
+		background-color: rgb(200, 200, 200);
+		background-color: rgba(200, 200, 200, .4);
+	}
+}
+
 	@import 'language-switcher';

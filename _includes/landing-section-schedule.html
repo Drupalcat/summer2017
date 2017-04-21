@@ -1,40 +1,54 @@
           <section id="schedule" class="wrapper style4">
             <div class="inner">
               <h2>{{ T.schedule[current_language] }}</h2>
-              <div class="table-wrapper">
-                <table>
-                  <thead>
-                    <tr>
-                      <th width="33%">{{ T.friday[current_language] }}</th>
-                      <th width="33%">{{ T.saturday[current_language] }}</th>
-                      <th width="33%">{{ T.sunday[current_language] }}</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        <ul>
-                          <li>{{ T.workshops[current_language] }}</li>
-                          <li>{{ T.sprints[current_language] }}</li>
-                        </ul>
-                      </td>
-                      <td>
-                        <ul>
-                          <li>{{ T.sessions[current_language] }}</li>
-                          <li>{{ T.sprints[current_language] }}</li>
-                          <li>{{ T.summer_party[current_language] }}</li>
-                        </ul>
-                      </td>
-                      <td>
-                        <ul>
-                          <li>{{ T.sprints[current_language] }}</li>
-                          <li>{{ T.mentoring_session[current_language] }}</li>
-                        </ul>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-                <p>{{ T.sessions_included[current_language] }}</p>
+              <div class="schedule-container">
+                <div class="card">
+                  <div class="card__title">
+                    {{ T.thursday[current_language] }}
+                  </div>
+                  <div class="card__detail">
+                    <ul>
+                      <li>{{ T.workshops_basic[current_language] }}</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__title">
+                    {{ T.friday[current_language] }}
+                  </div>
+                  <div class="card__detail">
+                    <ul>
+                      <li>{{ T.workshops_advanced[current_language] }}</li>
+                      <li>{{ T.sprints[current_language] }}</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__title">
+                    {{ T.saturday[current_language] }}
+                  </div>
+                  <div class="card__detail">
+                    <ul>
+                      <li>{{ T.sessions[current_language] }}</li>
+                      <li>{{ T.sprints[current_language] }}</li>
+                      <li>{{ T.summer_party[current_language] }}</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card__title">
+                    {{ T.sunday[current_language] }}
+                  </div>
+                  <div class="card__detail">
+                    <ul>
+                      <li>{{ T.sprints[current_language] }}</li>
+                      <li>{{ T.mentoring_session[current_language] }}</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
+              <p>{{ T.sessions_included[current_language] }}</p>
             </div>
+
+
           </section>

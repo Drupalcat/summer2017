@@ -26,9 +26,9 @@ learn_more:
   es: descubre más
 
 event_date:
-  ca: 30 de juny - 2 de juliol
-  en: June 30 - July 2
-  es: 30 de junio - 2 de julio
+  ca: 29 de juny - 2 de juliol
+  en: June 29 - July 2
+  es: 29 de junio - 2 de julio
 
 activate:
   ca: activar
@@ -156,6 +156,11 @@ tickets_footnote:
     - Els estudiants i les persones a l'atur tindran entrada gratuïta. Envia'ns un correu
     a [esdeveniments@drupal.cat](mailto:esdeveniments@drupal.cat) per a més detalls.
 
+thursday:
+  ca: dijous 29
+  en: thursday 29
+  es: jueves 29
+
 friday:
   ca: divendres 30
   en: friday 30
@@ -171,10 +176,15 @@ sunday:
   en: sunday 2
   es: domingo 2
 
-workshops:
-  ca: tallers
-  en: workshops
-  es: talleres
+workshops_advanced:
+  ca: formació avançada
+  en: advanced level workshops
+  es: formación avanzada
+
+workshops_basic:
+  ca: formació bàsica
+  en: basic level workshops
+  es: formación básica
 
 sprints:
   ca: sprints
@@ -220,3 +230,18 @@ sunday_schedule:
   ca: Horari diumenge
   en: Sunday schedule
   es: Horario domingo
+
+newsletter_text:
+  ca: Subscriu-te a la nostra llista de correu
+  en: Subscribe to our mailing list
+  es: Suscríbete a nuestra lista de correo
+
+email:
+  ca: Correu electrònic
+  en: Email Address
+  es: Email
+
+subscribe:
+  ca: Subscriu-te
+  en: Subscribe
+  es: Suscribirse
