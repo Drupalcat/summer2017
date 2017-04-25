@@ -162,44 +162,44 @@ tickets_footnote:
     a [esdeveniments@drupal.cat](mailto:esdeveniments@drupal.cat) per a més detalls.
 
 thursday:
-  ca: dijous 29
-  en: thursday 29
-  es: jueves 29
+  ca: Dijous 29
+  en: Thursday 29
+  es: Jueves 29
 
 friday:
-  ca: divendres 30
-  en: friday 30
-  es: viernes 30
+  ca: Divendres 30
+  en: Friday 30
+  es: Viernes 30
 
 saturday:
-  ca: dissabte 1
-  en: saturday 1
-  es: sabado 1
+  ca: Dissabte 1
+  en: Saturday 1
+  es: Sabado 1
 
 sunday:
-  ca: diumenge 2
-  en: sunday 2
-  es: domingo 2
+  ca: Diumenge 2
+  en: Sunday 2
+  es: Domingo 2
 
 workshops_advanced:
-  ca: formació avançada
-  en: advanced level workshops
-  es: formación avanzada
+  ca: Taller d'introducció al desenvolupament Back-End a Drupal 8
+  en: "Advanced workshop: Introduction to Back-End development in D8"
+  es: Taller de introducción al desarrollo Back-End en Drupal 8
 
 workshops_basic:
-  ca: formació bàsica
-  en: basic level workshops
-  es: formación básica
+  ca: Taller d'introducció a Drupal 8 Site Building
+  en: "Basic level workshop: Drupal 8 Site building"
+  es: Taller de introducción a Drupal 8 Site Building
 
 sprints:
-  ca: sprints
-  en: sprints
-  es: sprints
+  ca: Sprints
+  en: Sprints
+  es: Sprints
 
 sessions:
-  ca: sessions
-  en: sessions
-  es: sesiones
+  ca: Sessions
+  en: Sessions
+  es: Sesiones
 
 summer_party:
   ca: Summer party!
@@ -250,3 +250,13 @@ subscribe:
   ca: Subscriu-te
   en: Subscribe
   es: Suscribirse
+
+where:
+  ca: On
+  en: Venue
+  es: Sitio
+
+map:
+  ca: Mapa
+  en: Map
+  es: Mapa
