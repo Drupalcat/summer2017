@@ -43,7 +43,7 @@ landing_section1:
 
   content:
     ca: >
-      Uneix-te a desenvolupadors, dissenyadors i drupalers durant 3 dies de
+      Uneix-te a desenvolupadors, dissenyadors i drupalers durant 4 dies de
       sessions, sprints, formacions i activitats socials.
 
         El Drupal Summer Barcelona és un esdeveniment centrat en el Drupal
@@ -52,14 +52,14 @@ landing_section1:
         professionals, i alhora donar a conèixer l’ecosistema del Drupal local
         a fora.
     en: >
-      Join developers, designers and drupalistas for two days of sessions,
+      Join developers, designers and drupalistas for 4 days of sessions,
       sprints,trainings and social activities.
 
         Drupal Summer Barcelona is an event which aims to promote the use
         of Drupal and to interconnect businesses, agencies, developers,
         designers, project managers, users and other professionals.
     es: >
-      Únete a desarrolladores, diseñadores y drupaleros durante 3 días de
+      Únete a desarrolladores, diseñadores y drupaleros durante 4 días de
       sesiones, sprints, formaciones y actividades sociales.
 
         El Drupal Summer Barcelona es un evento centrado en Drupal para
@@ -76,6 +76,11 @@ sponsors:
   ca: Patrocinis
   en: Sponsors
   es: Patrocinios
+
+partners:
+  ca: Col·laboradors
+  en: Partners
+  es: Colaboradores
 
 sponsors_text:
   ca: >
