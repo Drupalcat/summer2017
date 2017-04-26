@@ -252,7 +252,7 @@ subscribe:
   es: Suscribirse
 
 where:
-  ca: On
+  ca: "On"
   en: Venue
   es: Sitio
 
