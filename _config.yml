@@ -95,6 +95,8 @@ main-menu:
 #      url: "/ca/#speakers"
 #    - name: elements
 #      url:  /elements.html
+    - name: Programa
+      url: "/ca/programa/"
     - name: patrocinadors
       url: "/ca/#sponsors"
     - name: codi de conducta
@@ -102,6 +104,8 @@ main-menu:
   en:
     - name: home
       url: /en/
+    - name: Schedule
+      url: "/en/schedule/"
 #    - name: featured speakers
 #      url: "/en/#speakers"
 #    - name: elements
@@ -113,6 +117,8 @@ main-menu:
   es:
     - name: inicio
       url: /es/
+    - name: Programa
+      url: "/es/programa/"
 #   - name: ponenetes destacados
 #     url: "/es/#speakers"
 #   - name: elementos

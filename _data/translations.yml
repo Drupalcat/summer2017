@@ -186,10 +186,20 @@ workshops_advanced:
   en: "Advanced workshop: Introduction to Back-End development in D8"
   es: Taller de introducción al desarrollo Back-End en Drupal 8
 
+workshops_advanced_link:
+  ca: /ca/programa/sessions/taller-de-backend-drupal8/
+  en: /en/schedule/sessions/taller-de-backend-drupal8/
+  es: /es/programa/sesiones/taller-de-backend-drupal8/
+
 workshops_basic:
   ca: Taller d'introducció a Drupal 8 Site Building
   en: "Basic level workshop: Drupal 8 Site building"
   es: Taller de introducción a Drupal 8 Site Building
+
+workshops_basic_link:
+  ca: /ca/programa/sessions/taller-de-introduccion-drupal8-site-building/
+  en: /en/schedule/sessions/taller-de-introduccion-drupal8-site-building/
+  es: /es/programa/sesiones/taller-de-introduccion-drupal8-site-building/
 
 sprints:
   ca: Sprints
