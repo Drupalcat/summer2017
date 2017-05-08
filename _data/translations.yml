@@ -144,19 +144,19 @@ buy_tickets_message:
 tickets_footnote:
   ca: >
     - Amb l'entrada *Love package* estaràs ajudant a fer realitat aquest esdeveniment
-    i [t'ho agrairem](/assets/files/drupal-summer-barcelona-2017-sponsor-ca.pdf#page=6).
+    i [t'ho agrairem](/assets/files/drupal-summer-barcelona-2017-sponsor-ca.pdf#page=6){: target="_blank"}.
 
     - Els estudiants i les persones a l'atur tindran descompte a l'entrada. Envia'ns un correu
     a [esdeveniments@drupal.cat](mailto:esdeveniments@drupal.cat) per a més detalls.
   en: >
     - With your *Love package* ticket you will help this event to become a reality.
-      We want to thank you [thank you](assets/files/drupal-summer-barcelona-2017-sponsor-en.pdf#page=6) for that.
+      We want to thank you [thank you](/assets/files/drupal-summer-barcelona-2017-sponsor-en.pdf#page=6){: target="_blank"} for that.
 
     - Students and unemployed will have a discount. Send us an email to
     [esdeveniments@drupal.cat](mailto:esdeveniments@drupal.cat) for further details.
   es: >
     - Con la entrada *Love package* estarás ayudando a hacer realidad este evento y
-      [te lo agradeceremos](assets/files/drupal-summer-barcelona-2017-sponsor-es.pdf#page=6).
+      [te lo agradeceremos](/assets/files/drupal-summer-barcelona-2017-sponsor-es.pdf#page=6){: target="_blank"}.
 
     - Los estudiantes y las personas en paro tendran un descuento en la entrada. Envíanos un correo
     a [esdeveniments@drupal.cat](mailto:esdeveniments@drupal.cat) para más detalles.
