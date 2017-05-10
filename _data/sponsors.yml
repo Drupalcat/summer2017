@@ -10,9 +10,9 @@
 - name: Òmada Interactiva
   logo: /assets/images/sponsors/logo-omada-interactiva.svg
   url: http://www.omada.es
-#- name: Introbay
-#  logo: /assets/images/sponsors/logo-introbay.svg
-#  url: https://introbay.com
+- name: Introbay
+  logo: /assets/images/sponsors/logo-introbay.svg
+  url: https://introbay.com
 #- name: Swiftcircle
 #  logo: /assets/images/sponsors/logo-swiftcircle.svg
 #  url: http://swiftcircle.com/
