@@ -16,6 +16,7 @@ Listado de sesiones propuestas en orden de envio.
     <strong>Título:</strong> {{ session.title }}<br/>
     <strong>Ponente:</strong> {{ session.speaker }}<br/>
     <strong>Nivel:</strong> {{ session.level }}<br/>
+    <strong>Idiomas:</strong> {{ session.languages }}<br/>
     <div class="proposed--session__description tab--closed"><strong>Descripción:</strong> <div class="proposed--session__description__value tab--collapsed">{{ session.description | markdownify }}</div></div>
   </li>
 {% endfor %}

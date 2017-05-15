@@ -2,6 +2,7 @@
   speaker: Cristina Chumillas
   level: Begginer
   title: Responsive Images and Art Direction in Drupal 8
+  languages: EN, ES, CA
   description: >
     Optimizing images can drastically decrease the page load time because, on average, 60% of a website’s page weight is made up of them. Responsive Web Design has changed how the web is built and that includes images too, because the aim is to deliver the highest quality image supported and nothing more. So today we have new standard elements and attributes to work with images widely supported by browsers (and polyfills for the rest) and Drupal has incorporated them.
 

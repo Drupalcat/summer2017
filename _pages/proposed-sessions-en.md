@@ -16,6 +16,7 @@ List of proposed sessions ordered by submission time.
     <strong>Title:</strong> {{ session.title }}<br/>
     <strong>Speaker:</strong> {{ session.speaker }}<br/>
     <strong>Level:</strong> {{ session.level }}<br/>
+    <strong>Languages:</strong> {{ session.languages }}<br/>
     <div class="proposed--session__description tab--closed"><strong>Description:</strong> <div class="proposed--session__description__value tab--collapsed">{{ session.description | markdownify }}</div></div>
   </li>
 {% endfor %}
