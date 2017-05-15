@@ -1,9 +1,12 @@
 - name: Forcontu
   logo: /assets/images/sponsors/logo-forcontu.svg
   url: https://www.forcontu.com/
-- name: Mosaic
-  logo: /assets/images/sponsors/logo-mosaic.svg
+- name: Mosaic UOC
+  logo: /assets/images/sponsors/logo-uoc.png
   url: http://mosaic.uoc.edu/
+- name: Mosaic
+  logo: /assets/images/sponsors/logo-aed.png  
+  url: http://asociaciondrupal.es/
 - name: Citilab
   logo: /assets/images/citilab-logo.png
   url: http://www.citilab.eu/
