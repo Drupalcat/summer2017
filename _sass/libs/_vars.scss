@@ -80,11 +80,11 @@
 		),
 
 		accent4: (
-			bg:				#00A6BC,
-			fg-bold:		#ffffff,
+			bg:				#ffffff,
+			fg-bold:		#2c2930,
 			fg:				mix(#76ddff, #ffffff, 25%),
 			fg-light:		mix(#76ddff, #ffffff, 40%),
-			border:			rgba(0,0,0,0.125),
+			border:			#c03d3c,
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
 			border2-bg:		rgba(255,255,255,0.2)
@@ -117,9 +117,9 @@
 			fg-bold:		#19181d,
 			fg:				#2c2930,
 			fg-light:		#8E8892,
-			border:			#dfdfdf,
+			border:			#c03d3c,
 			border-bg:		rgba(0,0,0,0.0375),
-			border2:		#bfbfbf,
+			border2:		#00a6bc,
 			border2-bg:		rgba(0,0,0,0.1)
 		)
 	);

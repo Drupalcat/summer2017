@@ -1245,7 +1245,7 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 		}
 
 		&.style2 {
-			background-color: _palette(bg);
+			@include wrapper(accent4);
 		}
 
 		&.style3 {
@@ -2038,5 +2038,14 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 		}
 	}
 }
+
+.cfp {
+	&__more-info {
+		clear: both;
+		font-size: 0.9rem;
+		margin-top: 1rem;
+	}
+}
+
 
 	@import 'language-switcher';

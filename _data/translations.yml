@@ -67,6 +67,35 @@ landing_section1:
         desarrolladores, diseñadores, jefes de proyecto, usuarios y otros profesionales,
         y a la vez dar a conocer el ecosistema de Drupal local fuera.
 
+cfp:
+  title:
+    ca: Obrim el Call for Papers!
+    en: Call for Papers is opened!
+    es: Abrimos el Call for Papers!
+
+  text:
+    ca: >
+        Portes temps treballant amb Drupal? Segur que tens alguna cosa a explicar! Anima't i proposa una sessió abans del 29 de Maig.
+    en: >
+        Have you been working with Drupal for a while? Then you'll probably have something to share! Bring yourself to submit a session before May 29th.
+    es: >
+      Llevas tiempo trabajando con Drupal? ¡Seguro que tienes algo que contar! Anímate y propón una charla antes del 29 de Mayo.
+
+  button:
+    ca: Proposa una sessió
+    en: Submit a session
+    es: Propón una sesión
+
+  info:
+    ca: Quin tipus de sessions busquem?
+    en: What sessions are we looking for?
+    es: ¿Qué tipo de sesiones buscamos?
+
+  info_link:
+    ca: /ca/criteris-de-seleccio/
+    en: /en/selection-criteria/
+    es: /es/criteros-de-seleccion/
+
 featured_speakers:
   ca: Ponents destacats
   en: Featured speakers
