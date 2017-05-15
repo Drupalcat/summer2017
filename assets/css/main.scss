@@ -218,6 +218,15 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 		}
 	}
 
+	article{
+		header{
+			h2{
+				color: $brand-color;
+				text-shadow: -0.07em -0.07em $brand-color2;
+			}
+		}
+	}
+
 	header {
 		p {
 			color: _palette(fg-light);
