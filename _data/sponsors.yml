@@ -13,6 +13,10 @@
 - name: Introbay
   logo: /assets/images/sponsors/logo-introbay.svg
   url: https://introbay.com
+- name: El Teb
+  logo: /assets/images/sponsors/logo-teb.svg
+  url: http://www.elteb.org
+  class-modifier: --vertical
 #- name: Swiftcircle
 #  logo: /assets/images/sponsors/logo-swiftcircle.svg
 #  url: http://swiftcircle.com/
@@ -25,10 +29,6 @@
 #- name: Drupaleros.es
 #  logo: /assets/images/sponsors/logo-drupaleros.png
 #  url: http://www.drupaleros.es
-#  class-modifier: --vertical
-#- name: El Teb
-#  logo: /assets/images/sponsors/logo-teb.svg
-#  url: http://www.elteb.org
 #  class-modifier: --vertical
 #- name: Smart Content
 #  logo: /assets/images/sponsors/logo-smart-content.png
