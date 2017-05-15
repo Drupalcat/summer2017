@@ -2056,5 +2056,27 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 	}
 }
 
+/* Proposed sessions */
+
+.proposed--session{
+	padding-bottom: 1em;
+	border-bottom: 1px solid black;
+	margin-bottom: 1em;
+}
+.proposed--session__description{
+
+	&::before{
+		content: "[-]";
+		cursor: pointer;
+		color: $brand-color;
+	}
+	&.tab--closed::before{
+		content: "[+]";
+		cursor: pointer;
+	}
+	.tab--collapsed{
+		display: none;
+	}
+}
 
 	@import 'language-switcher';

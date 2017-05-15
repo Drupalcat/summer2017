@@ -1,0 +1,1 @@
+!function(s){s(function(){s(".proposed--session__description").click(function(){s(this).toggleClass("tab--closed"),s(this).find(".proposed--session__description__value").toggleClass("tab--collapsed")})})}(jQuery);
