@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Criteris de seleccio de les sessions
+title: Criteris de selecció de les sessions
 permalink: /ca/criteris-de-seleccio/
 language: ca
 tid: selection-criteria
