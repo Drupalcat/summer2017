@@ -11,3 +11,23 @@
       I’ll start this session with a quick introduction about the different existing solutions for responsive images to be sure we are all at the same page. I’ll explain the difference between viewport sizing and Art Direction and how we are supposed to work with Drupal for each one, including demos. I’ll share tips and contrib modules that can make the developer and the final user lives easier.
 
       When you leave this session you’ll have an idea about the options offered by Drupal and enough knowledge to choose the correct one for your project.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Samuel Solís
+  level: Begginer
+  title: Nadie quiere trabajar conmigo
+  languages: ES
+  description: >
+    No importa lo bonito que sea tu código y las capas de abstracción que tenga que si nadie quiere trabajar contigo eres un mal desarrollador.
+
+      Al final, gran parte de nuestro trabajo está basado en la comunicación y las relaciones interpersonales&#58; tenemos que entender unos requisitos, organizarnos con otros departamentos, colaborar con otros desarrolladores (internos o externos), etc. Si no conseguimos que estos puntos sean satisfactorios, difícilmente vamos a conseguir que nuestro código cumpla su objetivo a todos los niveles."
+
+      Trataremos algunos ejemplos que nos encontramos en nuestro día a día&#58; comentar código, resolver conflictos, exponer ideas, etc.
+
+      Esta sesión es un remix de estas dos sesiones&#58;
+      - **Nadie quiere trabajar contigo**, de Luis Gonzalez (le pedí permiso para plagiarle buenas ideas): [https://2016.codemotion.es/agenda.html#5716304078045184/82984007](https://2016.codemotion.es/agenda.html#5716304078045184/82984007){: target="blank"}
+
+      - y **Mejora tu código mejorando tu comunicación**, mía&#58;
+      [https://2016.codemotion.es/agenda.html#5716304078045184/87284006](https://2016.codemotion.es/agenda.html#5716304078045184/87284006){: target="blank"}
+
+      ambas impartidas en codemotinos 2016.
