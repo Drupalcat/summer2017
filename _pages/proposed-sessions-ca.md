@@ -9,7 +9,7 @@ seo:
  keys: drupal, sessions proposades, drupal summer
 ---
 
-Llistat de sessions proposades en ordre d'enviament.
+Llistat de les **{{ site.data.proposed-sessions | size }}** sessions proposades en ordre d'enviament.
 <ul>
 {% for session in site.data.proposed-sessions %}
   <li class="proposed--session">

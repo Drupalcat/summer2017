@@ -96,6 +96,16 @@ cfp:
     en: /en/selection-criteria/
     es: /es/criterios-de-seleccion/
 
+  proposed_sessions:
+    ca: Consulta les sessions proposades
+    en: Check the submited sessions
+    es: Consulta las sesiones propuestas
+
+  proposed_sessions_link:
+    ca: /ca/sessions-proposades/
+    en: /en/proposed-sessions/
+    es: /es/sesiones-propuestas/
+
 featured_speakers:
   ca: Ponents destacats
   en: Featured speakers

@@ -9,7 +9,7 @@ seo:
  keys: drupal, proposed sessions, drupal summer
 ---
 
-List of proposed sessions ordered by submission time.
+List of the **{{ site.data.proposed-sessions | size }}** proposed sessions ordered by submission time.
 <ul>
 {% for session in site.data.proposed-sessions %}
   <li class="proposed--session">
