@@ -4,7 +4,7 @@ language: ca
 permalink: /ca/
 tid: home
 seo:
- description: Descripció de la pàgina
+ description: El Drupal Summer Barcelona és un esdeveniment centrat en el Drupal per a potenciar-ne l’ús
  keys: keywords
  
 ---
