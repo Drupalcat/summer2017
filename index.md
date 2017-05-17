@@ -2,7 +2,6 @@
 layout: landing
 seo:
  canonical: /ca/
- description: Descripció de la pàgina
- keys: keywords
+ keys: Drupal, Barcelona, development, frontend
  
 ---
