@@ -31,3 +31,117 @@
       [https://2016.codemotion.es/agenda.html#5716304078045184/87284006](https://2016.codemotion.es/agenda.html#5716304078045184/87284006){: target="blank"}
 
       ambas impartidas en codemotinos 2016.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Siddharta Navarro Castellar
+  level: Begginer
+  title: Extreme page composition with Paragraphs
+  languages: EN
+  description: >
+    Have you ever wanted to create a very dynamic content, with many different relative sections, but do not want a HTML guru to create this. A novice content editor may make something that looks good once but just try to make this responsive.
+
+      The paragraphs module is changing the way we think about assembling content within Drupal. It provides a powerful tool for doing content-first based design and content management in Drupal 7 and 8.
+
+      In this session will provide an overview of Paragraphs and show some real examples of the use of this module.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Robert Menetray Caballero
+  level: Intermediate
+  title: Gestión de configuraciones con CMI (Drupal 8)
+  languages: CA, ES
+  description: >
+    CMI (Configuration Management Initiative) es el sustituto de Features en Drupal 8, mucho mas potente y mucho más fácil de usar.
+
+      El beneficio de usar estas herramientas es no tener que hacer los cambios manualmente en todos los entornos en los que se trabaja (servidores de desarrollo, de test y de producción).
+
+      Algunos temas que se tratarán serán&#58;
+      - Cómo usarlo desde interfaz y desde drush.
+      - Módulos que ayudan a simplificar el trabajo.
+      - Cómo sobrescribir valores para poder tener configuraciones distintas entre entornos.
+      - Cómo evitar que se exporten configuraciones de algunos módulos y evitar que se activen módulos que solo deben de estar en el entorno de desarrollo.
+
+      Se explicará qué es CMI y se hará una breve demo en vivo si hay tiempo.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Juanen Bernal
+  level: Advanced
+  title: Externalizando los estáticos de Drupal 8 con Amazon S3
+  languages: ES
+  description: >
+    A veces por necesidades del proyecto tenemos que cambiar la forma en la que almacenamos los estáticos de nuestro Drupal.
+
+      En esta charla veremos qué cosas debemos tener en cuenta en nuestro proyecto para realizar dicho proceso, utilizando como ejemplo el sistema de almacenamiento de Amazon S3 y Drupal 8 dando un repaso a los diferentes flujos de trabajo relacionados con el manejo de ficheros en ambos casos.
+
+      Abordaremos los siguientes puntos&#58;
+      - Breve introducción sobre Amazon S3.
+      - StreamWrappers#58; ¿Qué son y cómo nos pueden ayudar?
+      - Cómo implementar nuestro nuevo sistema de almacenamiento en Drupal.
+      - Migrando nuestros ficheros.
+      - Adaptando nuestro proyecto#58; Buenas prácticas para manejar ficheros.
+      - Cómo gestionar nuestros entornos.
+      - Posibles problemas y estrategias para solucionarlos.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Juanen Bernal
+  level: Intermediate
+  title: Hacia rutas salvajes
+  languages: ES
+  description: >
+    Routes, Controllers, Symfony, Programación Orientada a Objetos... todas estas novedades y muchas más se han encargado de dejar atrás a nuestro viejo compañero de viaje hook_menu().
+
+      En esta charla nos adentraremos de lleno en el sistema de Routing de Drupal 8 que está basado en el potente componente de Routing de Symfony, empezando desde lo más sencillo hasta llegar a las partes más avanzadas. En esta odisea no caminaremos solos, ya que nos acompañarán diferentes ejemplos de código y diagramas de flujo para poder llegar a nuestro destino sanos y salvos :)
+
+      Hablaremos sobre los siguientes puntos&#58;
+      - Rutas y controladores.
+      - Entendiendo en profundidad los routing.yml.
+      - Alterando rutas existentes.
+      - Usando parámetros en las rutas.
+      - Definiendo nuestro propios Parameter Converters.
+      - Rutas dinámicas con Route Callbacks.
+      - Rutas complejas ayudándonos con los PathProcessors.
+      - Objetos relacionados con el sistema de Routing.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Marcos Cano
+  level: Intermediate
+  title: Making content editors happy in D8 with Entity Browser
+  languages: ES, EN
+  description: >
+    Often content editors are faced with the problem of having to switch the context of their content edition to be able to create / find / select another piece of content that needs to be related to the main content they are working on. This problem in Drupal 7 was mainly treated by several different solutions, each attempting to solve it case per case.
+
+      Entity Browser is a contrib module that was created to solve this problem in a very generic way. Developers and site-builders can leverage this module to create tools that will allow the content editor to&#58;
+      - upload multiple images / files at once;
+      - select and re-use an image / file already present on the server, creating easy-to-use media libraries;
+      - select a related content from an abritrary view;
+      - create a related content without having to exit the main content form;
+      - etc.
+
+      In this session we will&#58;
+      - explain the basic architecture of the module;
+      - see how to configure it from scratch to solve different use-cases (with some demos!);
+      - check what we can copy or re-use from some existing "example" contrib modules;
+      - see that it isn't difficult to extend parts of the module to customize it to our own specific needs.
+
+      Although not mandatory, people attending this session are expected to have basic site-building experience with Drupal 8, which will allow them to follow the demos and configuration steps more easily.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Marcos Cano
+  level: Intermediate
+  title: Ultimate embedding in Drupal 8 with Entity Embed and Url Embed
+  languages: ES, EN
+  description: >
+    Embedding media assets (images, videos, etc) in a WYSIWYG text is a long-standing problem that was dealt with in Drupal 7 in many different (and sometimes competing) ways. Drupal 8 core comes with a very basic support for embedding images out-of-the-box, but websites nowadays need to go beyond that and provide editors with a powerful tool capable of handling any type of local or remote media assets.
+
+      This is where the Entity Embed + Url Embed modules come to play. They were designed to be a standardized solution for embedding any entity or remote URL content in any WYSIWYG area in Drupal 8.
+
+      In this session we will cover the architecture of these modules, benefits of having a unified solution, how to configure them, and possible integrations with other modules of the media ecosystem, such as "Media Entity" or "Entity Browser".
+
+      Although not mandatory, people attending this session are expected to have basic site-building experience with Drupal 8, which will allow them to follow the demos and configuration steps more easily.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Carlos Jimenez
+  level: Intermediate
+  title: The lazy way to production
+  languages: EN
+  description: >
+    I'll show how to deploy to production when you only press the button merge pull request.
