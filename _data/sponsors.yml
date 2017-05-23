@@ -20,6 +20,9 @@
 - name: Ateigh Diseño Web
   logo: /assets/images/sponsors/logo-ateigh.png
   url: https://ateigh.com/
+- name: Softescu
+  logo: /assets/images/sponsors/logo-softescu.svg
+  url: http://softescu.com/drupal-development-drupal-experts
 #- name: Swiftcircle
 #  logo: /assets/images/sponsors/logo-swiftcircle.svg
 #  url: http://swiftcircle.com/
@@ -70,9 +73,6 @@
 #- name: Solucionex
 #  logo: /assets/images/sponsors/logo-solucionex.svg
 #  url: http://www.solucionex.com/
-#- name: Softescu
-#  logo: /assets/images/sponsors/logo-softescu.svg
-#  url: http://softescu.com/drupal-development-drupal-experts
 #- name: Wunder Group
 #  logo: /assets/images/sponsors/logo-wunderkraut.svg
 #  url: https://wunder-group.com/
