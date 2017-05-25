@@ -26,6 +26,9 @@
 - name: ASPgems
   logo: /assets/images/sponsors/logo-asp-gems.svg
   url: https://aspgems.com/
+- name: Rojomorgan
+  logo: /assets/images/sponsors/logo-rojo-morgan.svg
+  url: http://rojomorgan.com/
 #- name: Swiftcircle
 #  logo: /assets/images/sponsors/logo-swiftcircle.svg
 #  url: http://swiftcircle.com/
