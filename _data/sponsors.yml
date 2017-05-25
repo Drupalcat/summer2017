@@ -23,6 +23,9 @@
 - name: Softescu
   logo: /assets/images/sponsors/logo-softescu.svg
   url: http://softescu.com/drupal-development-drupal-experts
+- name: ASPgems
+  logo: /assets/images/sponsors/logo-asp-gems.svg
+  url: https://aspgems.com/
 #- name: Swiftcircle
 #  logo: /assets/images/sponsors/logo-swiftcircle.svg
 #  url: http://swiftcircle.com/
@@ -49,9 +52,6 @@
 #- name: Lingotek
 #  logo: /assets/images/sponsors/logo-lingotek.svg
 #  url: http://www.lingotek.com/drupal
-#- name: ASPgems
-#  logo: /assets/images/sponsors/logo-asp-gems.svg
-#  url: https://aspgems.com/
 #- name: Front.id
 #  logo: /assets/images/sponsors/logo-frontid.png
 #  url: http://front.id/
