@@ -1,0 +1,13 @@
+          <section id="individualsponsors" class="wrapper style7 special">
+            <div class="inner">
+              <header class="major">
+                <h2>{{ T.individualsponsors[current_language] }}</h2>
+                <p>{{ T.individualsponsorstxt[current_language] }}</p>
+                <ul class="individualsponsors__list">
+                  {% for sponsor in site.data.individualsponsors %}
+                    <li class="individualsponsors">{{ sponsor.name }}</li>
+                  {% endfor %}
+                </ul>
+              </header>
+            </div>
+          </section>

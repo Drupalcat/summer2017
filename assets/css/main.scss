@@ -1894,30 +1894,88 @@ $baseurl: '{{ site.baseurl }}/assets/images';
   margin-bottom: 4em;
 }
 .speaker {
+	position: relative;
   display: inline-block;
   border: none;
-  width: 24%;
-  margin-bottom: 1rem;
+  width: 337px;
+  margin: 1rem 3%;
 
   @include breakpoint(small) {
-    width: 45%;
+		width: 337px;
+		min-height: 270px;
   }
 
   @include breakpoint(xsmall) {
-    width: 100%;
+    width: 337px;
+		max-width: 100%;
+		min-height: 270px;
   }
-}
-.speaker__img {
-  border-radius: 100%;
-  overflow: hidden;
-  width: 90%;
-  max-width: 220px;
-}
-.speaker__name {
-  clear: left;
-  display: block;
-  border-radius: 100%;
-  overflow: hidden;
+
+	&__img {
+	  border-radius: 100%;
+	  overflow: hidden;
+	  width: 90%;
+	  max-width: 100%;
+	}
+
+	&__name {
+		position: absolute;
+		transform: rotate(-45deg);
+		transform-origin: 100% 100%;
+		top: 140px;
+		text-align: right;
+	  right: -20px;
+	  display: block;
+		color: _palette(accent7, fg);
+		line-height: 1.4rem;
+	}
+
+	&__rname {
+		font-weight: 800;
+		text-transform: uppercase;
+		display: block;
+		font-size: 1.4rem;
+	}
+
+	&__nick {
+		clear: both;
+		display: block;
+	}
+
+	&__do,
+	&__twitter {
+		position: absolute;
+		display: block;
+		width: 40px;
+		height: 40px;
+		padding: 7px;
+		transform: rotate(-45deg);
+		transform-origin: 100% 100%;
+		background-color: _palette(accent7, border2);
+		background-repeat: no-repeat;
+		background-position: center center;
+		opacity: 0.9;
+		transition: 0.4s ease;
+
+		&:hover {
+			opacity: 0.6;
+			transition: 0.4s ease;
+		}
+
+		svg {
+			width: 25px;
+			height: 25px;
+			transform: rotate(45deg);
+		}
+	}
+	&__do {
+		top: 145px;
+		left: 1px;
+	}
+	&__twitter {
+		top: 179px;
+    left: 34px;
+	}
 }
 
 .speakers-criteria {
@@ -2015,6 +2073,58 @@ $baseurl: '{{ site.baseurl }}/assets/images';
       max-width: none;
     }
   }
+}
+
+/* Individual sponsors */
+.style7 {
+	background-color: _palette(accent6, bg);
+	color: _palette(accent6, fg-bold);
+
+	header.major {
+		h2 {
+			border-bottom: solid 2px _palette(accent6, fg-bold);
+		}
+		p {
+			color: _palette(accent6, fg-bold);
+		}
+	}
+}
+
+.individualsponsors {
+	display: inline-block;
+	position: relative;
+	width: 30%;
+	margin-right: 2%;
+	margin-bottom: 1%;
+	list-style: none;
+	padding-left: 20px;
+	text-align: left;
+
+	@include breakpoint(medium) {
+		width: 48%;
+		margin-right: 2%;
+	}
+
+	@include breakpoint(small) {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	&::before {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 7px;
+		left: 0;
+		width: 10px;
+		height: 10px;
+		background-color: _palette(accent6, fg-bold);
+		transform: rotate(45deg);
+	}
+
+	&__list {
+
+	}
 }
 
 .schedule-container{

@@ -116,6 +116,16 @@ sponsors:
   en: Sponsors
   es: Patrocinios
 
+individualsponsors:
+  ca: Patrocinis individuals
+  en: Individual sponsors
+  es: Patrocinios individuales
+
+individualsponsorstxt:
+  ca: Els patrocinis individuals ens ajuden a que l'esdeveniment sigui millor. Moltes gràcies!
+  en: Los patrocinios individuales nos ayudan a que el evento sea mejor. ¡Muchas gracias!
+  es: The individual sponsors help us to have a better event. Thank you!
+
 partners:
   ca: Col·laboradors
   en: Partners
