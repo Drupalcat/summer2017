@@ -185,3 +185,38 @@
       En la sesión revisaremos algunas de las herramientas disponibles para Drupal 8, repasaremos las recomendaciones más importantes para el posicionamiento en buscadores y ofreceremos también algunos tips sobre la medición de resultados mediante Google Tag Manager y Google Analytics. También daremos una pincelada sobre lo que es AMP y cómo puede ayudarnos a un buen posicionamiento de nuestra web para móviles.
 
       Esta es una sesión pensada tanto para desarrolladores y sitebuilders Drupal que quieran conocer las herramientas SEO como para responsables de contenidos o  de marketing que trabajan con Drupal u otros CMS y con Google Analytics.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Samuel Solís
+  level: Begginner
+  title: Jugando con Form API en D8
+  languages: ES
+  description: >
+    Form API es una de las cosas que menos ha evolucionado desde Drupal 6 y el principal motivo es que funciona y que lo hace bien y rápido. Además el código es claro y sencillo de leer lo que hace que sea mantenible en el tiempo.
+
+      Pero que no haya cambiado en forma no significa que no haya evolucionado ni presentado novedades, ¡Ni mucho menos! Form API en D8 es mucho más que un array con el tipo de campo y el valor por defecto.
+
+      El objetivo de la sesión es mostrar el abanico de herramientas que ofrece Form API en Drupal 8. Comenzaremos viendo la creación de un formulario simple desde 0 (cosa que lleva 15 minutos) y acabaremos explorando las opciones que ofrece haciendo especial hincapié en Ajax api, la nueva awesónica manera de hacer un formulario dinámico y personalizado sin tirar ni una línea de Javascript (sí, en versiones anteriores también se podía, pero).
+
+      ¿A quién va dirigida esta sesión?
+      Está pensada para todo aquel que tenga experiencia tocando código pero no conozca las bondades de Drupal 8 en lo que a formularios se refiere. Incluso si no tocas código demasiado a menudo posíblemente captes el mensaje, ¡aunque igual cuando te pongas a probar tardes un pelín más en hacerlo funcionar! Eso sí, primero veremos código, después más código, y terminaremos viendo un poco más de código (y quizá algún gatito).
+
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Luis Ortiz Ramos
+  level: Begginner
+  title: Layout Discovery#58; el nuevo estándar para el registro de layouts en el núcleo de Drupal
+  languages: CA, ES
+  description: >
+    Desde la versión 8.3.0, el núcleo de Drupal incluye el módulo Layout Discovery de forma experimental.
+
+      Este módulo nos permite crear nuevos layouts de una forma sencilla, simplemente incluyendo un archivo YAML y una plantilla en nuestro módulo o tema.
+
+      Luego, otros módulos como Display Suite, Panels o el nuevo Field Layout (también en el núcleo) los utilizan, permitiendo al administrador configurar como se muestran diferentes elementos que elementos del sitio.
+
+      En esta sesión&#58;
+
+      - Contaremos la historia de los módulos que utilizan Layout Discovery
+      - Explicaremos que es un Plugin, como se utilizan y que tiene que ver con Layout Discovery
+      - Crearemos nuestro propio Layout sencillo
+      - Repasaremos como crear Layouts avanzados
