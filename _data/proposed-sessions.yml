@@ -188,7 +188,7 @@
 
 - length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Samuel Solís
-  level: Begginner
+  level: Intermediate
   title: Jugando con Form API en D8
   languages: ES
   description: >
@@ -204,8 +204,8 @@
 
 - length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Luis Ortiz Ramos
-  level: Begginner
-  title: Layout Discovery#58; el nuevo estándar para el registro de layouts en el núcleo de Drupal
+  level: Intermediate
+  title: Layout Discovery&#58; el nuevo estándar para el registro de layouts en el núcleo de Drupal
   languages: CA, ES
   description: >
     Desde la versión 8.3.0, el núcleo de Drupal incluye el módulo Layout Discovery de forma experimental.
@@ -220,3 +220,11 @@
       - Explicaremos que es un Plugin, como se utilizan y que tiene que ver con Layout Discovery
       - Crearemos nuestro propio Layout sencillo
       - Repasaremos como crear Layouts avanzados
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Oriol Diez - Josep Lluís Amador
+  level: Intermediate
+  title: Integrando Drupal con el ERP/CRM Dolibarr&#58; la Alianza del OpenSource
+  languages: CA, ES
+  description: >
+    Introducción al ERP/CRM Dolibarr, proyecto libre con licencia GPL, desarrollado con PHP, Javascript y MySQL, y con diferentes posibilidades para integrarse con Drupal para compartir datos de clientes, contactos, productos o servicios de una empresa o asociación.
