@@ -145,3 +145,43 @@
   languages: EN
   description: >
     I'll show how to deploy to production when you only press the button merge pull request.
+
+      The tools I will explain in this session will be&#58;
+      - https://concourse.ci/ for build the pipeline
+      - https://platform.sh/ for deploying environment
+      - tests performance, behavior, visual regression, security or whatever you want!
+      - syncs & backups/snapshots
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Rodrigo Aguilera
+  level: Intermediate
+  title: Better dependency management&#58; leverage composer for good
+  languages: ES, EN
+  description: >
+    Drush make days are over. Drupal in its effort to "get off the island" has adopted a new but popular tool for dependency management in the PHP ecosystem: composer.
+
+      I will go through the basics of how to use this tool quickly and some interesting features like caching, semantic versioning, class autoloading, etc.
+
+      The I will folllow with the main ways I found to leverage composer and do more with it&#58;
+      - Scaffold your Drupal project (initializing)
+      - Apply patches from the community to Drupal core and modules
+      - Differentiate dependencies for development from the rest
+      - Get exact same version of libraries for all developers
+      - Download frontend libraries
+      - Download compiled binary tools for my machine.
+
+      And if the time allows we can open a discussion about good practices and tricks to make our composer experience better.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Cinta Màdico
+  level: Begginner
+  title: SEO y marketing para Drupal
+  languages: CA, ES
+  description: >
+    Drupal cuenta con un montón de módulos que permiten optimizar el posicionamiento en buscadores de los sites construidos en Drupal.
+
+      El módulo SEO checklist nos puede ayudar a llevar el control de qué módulos hemos instalado y configurado en nuestro site.
+
+      En la sesión revisaremos algunas de las herramientas disponibles para Drupal 8, repasaremos las recomendaciones más importantes para el posicionamiento en buscadores y ofreceremos también algunos tips sobre la medición de resultados mediante Google Tag Manager y Google Analytics. También daremos una pincelada sobre lo que es AMP y cómo puede ayudarnos a un buen posicionamiento de nuestra web para móviles.
+
+      Esta es una sesión pensada tanto para desarrolladores y sitebuilders Drupal que quieran conocer las herramientas SEO como para responsables de contenidos o  de marketing que trabajan con Drupal u otros CMS y con Google Analytics.
