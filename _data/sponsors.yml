@@ -29,12 +29,13 @@
 - name: Rojomorgan
   logo: /assets/images/sponsors/logo-rojo-morgan.svg
   url: http://rojomorgan.com/
+- name: LliureTIC
+  logo: /assets/images/sponsors/logo-lliure-tic.png
+  url: http://lliuretic.cat/
 #- name: Swiftcircle
 #  logo: /assets/images/sponsors/logo-swiftcircle.svg
 #  url: http://swiftcircle.com/
-#- name: LliureTIC
-#  logo: /assets/images/sponsors/logo-lliure-tic.png
-#  url: http://lliuretic.cat/
+
 #- name: Rojomorgan
 #  logo: /assets/images/sponsors/logo-rojo-morgan.svg
 #  url: http://rojomorgan.com/
