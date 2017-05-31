@@ -319,3 +319,19 @@ map:
   ca: Mapa
   en: Map
   es: Mapa
+
+training:
+  title:
+    ca: Formació intensiva en Drupal 8
+    en: Drupal 8 intensive training
+    es: Formación intensiva en Drupal 8
+
+  text:
+    ca: >
+        Després de l'èxit de l'any passat, els amics de Forcontu tornen a fer un curs intensiu en Drupal 8, però aquesta vegada en 2 dies intensius. El primer per a iniciar-se a Drupal 8 i els segon per a ampliar els coneixements.
+        <a href="mailto:esdeveniments@drupal.cat">Demana'ns</a> un certificat d'assistència si és necesari.
+    en: >
+        After last year success, Forcontu is back with this intensive Drupal 8 training, but this separated in two full-days. The first is prepared to start in Drupal 8 and the second is ment to expand even more your knowledge.
+    es: >
+        Tras el éxito del año pasado, los amigos de Forcontu vuelven a prepararnos este curso intensivo en Drupal 8, que esta vez se repartirá durante 2 días intensivos. El primero para iniciarse a Drupal 8 y los segundo para ampliar los conocimientos.
+        <a href="mailto:esdeveniments@drupal.cat">Pídenos</a> un certificado de asistencia si es necesario.
