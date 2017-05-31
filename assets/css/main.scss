@@ -1741,7 +1741,7 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 
 	#main {
 		> header {
-			@include padding(12em, 0);
+			@include padding(6em, 4em);
 			background-image: url("images/texture.svg");
 			background-position: center center;
 			background-repeat: repeat;
@@ -1988,13 +1988,13 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 
 .session__speaker {
   text-align: center;
-  margin: -12em 0 3em 0; }
+  margin: 0 0 3em 0; }
   @media screen and (max-width: 980px) {
     .session__speaker {
-      margin: -8em 0 3em 0; } }
+      margin: 0 0 3em 0; } }
   @media screen and (max-width: 736px) {
     .session__speaker {
-      margin: -4em 0 3em 0; } }
+      margin: 0 0 3em 0; } }
   @media screen and (max-width: 736px) {
     .session__speaker .speaker__img {
       max-width: 150px; } }
