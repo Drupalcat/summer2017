@@ -32,13 +32,15 @@
 - name: LliureTIC
   logo: /assets/images/sponsors/logo-lliure-tic.png
   url: http://lliuretic.cat/
+- name: Drupalize.me
+  logo: /assets/images/sponsors/logo-drupalizeme.svg
+  url: https://drupalize.me/
+- name: Runroom
+  logo: /assets/images/sponsors/logo-runroom.svg
+  url: https://www.runroom.com/
 #- name: Swiftcircle
 #  logo: /assets/images/sponsors/logo-swiftcircle.svg
 #  url: http://swiftcircle.com/
-
-#- name: Rojomorgan
-#  logo: /assets/images/sponsors/logo-rojo-morgan.svg
-#  url: http://rojomorgan.com/
 #- name: Drupaleros.es
 #  logo: /assets/images/sponsors/logo-drupaleros.png
 #  url: http://www.drupaleros.es
