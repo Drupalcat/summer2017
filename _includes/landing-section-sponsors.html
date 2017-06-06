@@ -3,6 +3,9 @@
               <header class="major">
                 <h2>{{ T.sponsors[current_language] }}</h2>
                 <ul class="sponsor__list">
+                  {% for sponsor in site.data.sponsors-coffee %}
+                  <li class="sponsor--coffee"><a class="sponsor__link" href="{{ sponsor.url }}" target="_blank"><img class="sponsor__img{{ sponsor.class-modifier }}" src="{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }}" /></a></li>
+                  {% endfor %}
                   {% for sponsor in site.data.sponsors %}
                   <li class="sponsor"><a class="sponsor__link" href="{{ sponsor.url }}" target="_blank"><img class="sponsor__img{{ sponsor.class-modifier }}" src="{{ sponsor.logo }}" alt="{{ sponsor.name }} logo" title="{{ sponsor.name }}" /></a></li>
                   {% endfor %}

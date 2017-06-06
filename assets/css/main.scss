@@ -2032,6 +2032,34 @@ $baseurl: '{{ site.baseurl }}/assets/images';
     transition: 0.2s;
   }
 
+	&--coffee {
+		display: inline-block;
+	  list-style: none;
+		width: 49%;
+		margin-bottom: 2em;
+		text-align: center;
+		vertical-align: middle;
+
+	  @include breakpoint(medium) {
+	    width: 49%;
+			margin-bottom: 3em;
+	  }
+
+	  @include breakpoint(xsmall) {
+	    width: 100%;
+			margin-bottom: 6em;
+	  }
+
+		&:hover {
+	    opacity: 0.8;
+	    transition: 0.2s;
+	  }
+
+		.sponsor__img {
+			max-width: 370px;
+		}
+	}
+
   &__list {
     margin: 2em 0 5em;
     padding: 0;
