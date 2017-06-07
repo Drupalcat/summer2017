@@ -1,6 +1,7 @@
 ---
 layout: schedule
 title: Programa dissabte
+subtitle: Sessions
 permalink: /ca/programa/dissabte/
 language: ca
 tid: schedule-saturday

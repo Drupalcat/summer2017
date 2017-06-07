@@ -1,6 +1,7 @@
 ---
 layout: schedule
 title: Saturday schedule
+subtitle: Sessions
 permalink: /en/schedule/saturday/
 language: en
 tid: schedule-saturday

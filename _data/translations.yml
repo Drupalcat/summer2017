@@ -260,6 +260,11 @@ sessions:
   en: Sessions
   es: Sesiones
 
+sessions_link:
+  ca: /ca/programa/dissabte/
+  en: /en/schedule/saturday/
+  es: /es/programa/sabado/
+
 summer_party:
   ca: Summer party!
   en: Summer party!

@@ -1,6 +1,7 @@
 ---
 layout: schedule
 title: Programa sábado
+subtitle: Sesiones
 permalink: /es/programa/sabado/
 language: es
 tid: schedule-saturday

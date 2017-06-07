@@ -97,6 +97,8 @@ main-menu:
 #      url:  /elements.html
     - name: Programa
       url: "/ca/programa/"
+    - name: Sessions
+      url: "/ca/programa/dissabte/"
     - name: patrocinadors
       url: "/ca/#sponsors"
     - name: codi de conducta
@@ -106,6 +108,8 @@ main-menu:
       url: /en/
     - name: Schedule
       url: "/en/schedule/"
+    - name: Sessions
+      url: "/en/schedule/saturday/"
 #    - name: featured speakers
 #      url: "/en/#speakers"
 #    - name: elements
@@ -119,6 +123,8 @@ main-menu:
       url: /es/
     - name: Programa
       url: "/es/programa/"
+    - name: Sesiones
+      url: "/es/programa/sabado/"
 #   - name: ponenetes destacados
 #     url: "/es/#speakers"
 #   - name: elementos
