@@ -2221,6 +2221,10 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 	text-align: center;
 }
 
+.uppercase{
+	text-transform: uppercase;
+}
+
 .hour {
   margin: 0;
   font-size: 0.8rem;

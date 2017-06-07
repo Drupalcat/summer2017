@@ -19,12 +19,12 @@ layout: default
       {% assign session1a = site.data.accepted-sessions | where:'id','dawehner1'| first %}
       {% assign session1b = site.data.accepted-sessions | where:'id','chumillas1'| first %}
       {% assign session2a = site.data.accepted-sessions | where:'id','e0ipso1'| first %}
-      {% assign session2b = site.data.accepted-sessions | where:'id','marcoscano2'| first %}
+      {% assign session2b = site.data.accepted-sessions | where:'id','samuelsolis2'| first %}
       {% assign session3a = site.data.accepted-sessions | where:'id','robert1'| first %}
       {% assign session3b = site.data.accepted-sessions | where:'id','siddi1'| first %}
       {% assign session4a = site.data.accepted-sessions | where:'id','rodrigoaguilera1'| first %}
       {% assign session4b = site.data.accepted-sessions | where:'id','cintamadico1'| first %}
-      {% assign session5a = site.data.accepted-sessions | where:'id','samuelsolis2'| first %}
+      {% assign session5a = site.data.accepted-sessions | where:'id','marcoscano2'| first %}
       {% assign session5b = site.data.accepted-sessions | where:'id','luisortiz1'| first %}
       {% assign session6a = site.data.accepted-sessions | where:'id','carlosjimenez1'| first %}
       {% assign session6b = site.data.accepted-sessions | where:'id','dolibarr1'| first %}
@@ -46,7 +46,7 @@ layout: default
               <p class="hour">09:15</p>
             </th>
             <td colspan="2" class="text-centered">
-              <p>Registration</p>
+              <p class="uppercase">{{ T.registration[current_language] }}</p>
             </td>
           </tr>
           <tr>
@@ -55,7 +55,7 @@ layout: default
               <p class="hour">09:30</p>
             </th>
             <td colspan="2" class="text-centered">
-              <p>Opening</p>
+              <p class="uppercase">{{ T.opening[current_language] }}</p>
             </td>
           </tr>
           <tr>
@@ -88,7 +88,7 @@ layout: default
               <p class="hour">12:00</p>
             </th>
             <td colspan="2" class="text-centered">
-              <p>{{ T.coffee[current_language] }}</p>
+              <p class="uppercase">{{ T.coffee[current_language] }}</p>
             </td>
           </tr>
           <tr>
@@ -121,7 +121,7 @@ layout: default
               <p class="hour">15:00</p>
             </th>
             <td colspan="2" class="text-centered">
-              <p>{{ T.lunch[current_language] }}</p>
+              <p class="uppercase">{{ T.lunch[current_language] }}</p>
             </td>
           </tr>
           <tr>
@@ -142,7 +142,7 @@ layout: default
               <p class="hour">16:30</p>
             </th>
             <td colspan="2" class="text-centered">
-              <p>{{ T.coffee[current_language] }}</p>
+              <p class="uppercase">{{ T.coffee[current_language] }}</p>
             </td>
           </tr>
           <tr>

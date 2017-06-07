@@ -345,3 +345,13 @@ coffee:
   ca: Cafè
   en: Coffee
   es: Café
+
+registration:
+  ca: Registre
+  en: Registration
+  es: Registro
+
+opening:
+  ca: Sessió d'obertura
+  en: Opening session
+  es: Sesión de apertura

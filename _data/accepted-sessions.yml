@@ -3,9 +3,9 @@
   drupal: e0ipso
   id: e0ipso1
   level: ???
-  title: TBD
-  url: /en/session/abc/
-  languages: es
+  title: Contenta makes your content happy
+  url: /en/session/contenta-makes-your-content-happy/
+  languages: en
   description: >
     pending description
 
@@ -16,7 +16,7 @@
   level: ???
   title: Drupal 8 best practices in the wild
   url: /en/session/drupal-8-best-practices-in-the-wild/
-  languages: es
+  languages: en
   description: >
     pending description
 
