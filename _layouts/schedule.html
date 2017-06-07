@@ -1,0 +1,178 @@
+---
+layout: default
+---
+{% include get-current-language.html %}
+{% assign T = site.data.translations %}
+<article id="main">
+
+  <header>
+    <h2>{{ page.title }}</h2>
+    {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+  </header>
+
+  <section class="wrapper style5">
+    <div class="inner">
+      {{ content }}
+      {% assign room1 = 'Auditori' %}
+      {% assign room2 = 'Sala B' %}
+
+      {% assign session1a = site.data.accepted-sessions | where:'id','dawehner1'| first %}
+      {% assign session1b = site.data.accepted-sessions | where:'id','chumillas1'| first %}
+      {% assign session2a = site.data.accepted-sessions | where:'id','e0ipso1'| first %}
+      {% assign session2b = site.data.accepted-sessions | where:'id','marcoscano2'| first %}
+      {% assign session3a = site.data.accepted-sessions | where:'id','robert1'| first %}
+      {% assign session3b = site.data.accepted-sessions | where:'id','siddi1'| first %}
+      {% assign session4a = site.data.accepted-sessions | where:'id','rodrigoaguilera1'| first %}
+      {% assign session4b = site.data.accepted-sessions | where:'id','cintamadico1'| first %}
+      {% assign session5a = site.data.accepted-sessions | where:'id','samuelsolis2'| first %}
+      {% assign session5b = site.data.accepted-sessions | where:'id','luisortiz1'| first %}
+      {% assign session6a = site.data.accepted-sessions | where:'id','carlosjimenez1'| first %}
+      {% assign session6b = site.data.accepted-sessions | where:'id','dolibarr'| first %}
+      {% assign session7a = site.data.accepted-sessions | where:'id','jansete2'| first %}
+      {% assign session7b = site.data.accepted-sessions | where:'id','penyaskito1'| first %}
+
+      <table class="schedule">
+        <thead>
+          <tr class="no-session">
+            <th class="text-centered" width="14%"></th>
+            <th class="text-centered" width="43%">{{ room1 }}</th>
+            <th class="text-centered" width="43%">{{ room2 }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>
+              <p class="hour">08:30</p>
+              <p class="hour">09:15</p>
+            </th>
+            <td colspan="2" class="text-centered">
+              <p>Registration</p>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p class="hour">09:15</p>
+              <p class="hour">09:30</p>
+            </th>
+            <td colspan="2" class="text-centered">
+              <p>Opening</p>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p class="hour">09:30</p>
+              <p class="hour">10:30</p>
+            </th>
+            <td >
+              {% include get-session-info.html session=session1a %}
+            </td>
+            <td >
+              {% include get-session-info.html session=session1b %}
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p class="hour">10:30</p>
+              <p class="hour">11:30</p>
+            </th>
+            <td >
+              {% include get-session-info.html session=session2a %}
+            </td>
+            <td >
+              {% include get-session-info.html session=session2b %}
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p class="hour">11:30</p>
+              <p class="hour">12:00</p>
+            </th>
+            <td colspan="2" class="text-centered">
+              <p>{{ T.coffee[current_language] }}</p>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p class="hour">12:00</p>
+              <p class="hour">13:00</p>
+            </th>
+            <td >
+              {% include get-session-info.html session=session3a %}
+            </td>
+            <td >
+              {% include get-session-info.html session=session3b %}
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p class="hour">13:00</p>
+              <p class="hour">14:00</p>
+            </th>
+            <td >
+              {% include get-session-info.html session=session4a %}
+            </td>
+            <td >
+              {% include get-session-info.html session=session4b %}
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p class="hour">14:00</p>
+              <p class="hour">15:00</p>
+            </th>
+            <td colspan="2" class="text-centered">
+              <p>{{ T.lunch[current_language] }}<</p>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p class="hour">15:00</p>
+              <p class="hour">16:00</p>
+            </th>
+            <td >
+              {% include get-session-info.html session=session5a %}
+            </td>
+            <td >
+              {% include get-session-info.html session=session5b %}
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p class="hour">16:00</p>
+              <p class="hour">16:30</p>
+            </th>
+            <td colspan="2" class="text-centered">
+              <p>{{ T.coffee[current_language] }}<</p>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p class="hour">16:30</p>
+              <p class="hour">17:30</p>
+            </th>
+            <td >
+              {% include get-session-info.html session=session6a %}
+            </td>
+            <td >
+              {% include get-session-info.html session=session6b %}
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <p class="hour">17:30</p>
+              <p class="hour">18:30</p>
+            </th>
+            <td >
+              {% include get-session-info.html session=session7a %}
+            </td>
+            <td >
+              {% include get-session-info.html session=session7b %}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </section>
+
+</article>

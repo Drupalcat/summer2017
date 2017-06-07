@@ -2217,4 +2217,64 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 	}
 }
 
+.text-centered{
+	text-align: center;
+}
+
+.hour {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+
+  @include breakpoint(small) {
+    font-size: 0.65rem;
+    line-height: 0.75rem;
+  }
+}
+
+.schedule{
+	text-align: center;
+
+	p{
+		margin: 0;
+	}
+
+	.session__title{
+		font-weight: bold;
+		min-height: 6em;
+
+		@include breakpoint(small) {
+			min-height: 10.5em;
+		}
+	}
+
+	.session__speaker{
+		margin-bottom: 1em;
+	}
+
+	.session__language{
+		border-radius: 100%;
+		height: 1.8em;
+		width: 1.8em;
+		color: white;
+		font-size: .8em;
+		line-height: 1.5em;
+		text-align: center;
+		margin:0 auto;
+
+
+		&--es{
+			@extend .session__language;
+			background-color: $brand-color;
+		}
+		&--en{
+			@extend .session__language;
+			background-color: $brand-color2;
+		}
+		&--ca{
+			@extend .session__language;
+			background-color: gray;
+		}
+	}
+}
 	@import 'language-switcher';

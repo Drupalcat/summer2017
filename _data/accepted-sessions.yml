@@ -1,0 +1,224 @@
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Mateu Aguiló
+  drupal: e0ipso
+  id: e0ipso1
+  level: ???
+  title: ???
+  url: /en/session/abc/
+  languages: es
+  description: >
+    pending description
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Daniel Wehner
+  drupal: dawehner
+  id: dawehner1
+  level: ???
+  title: ???
+  url: /en/session/abcd/
+  languages: es
+  description: >
+    pending description
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Cristina Chumillas
+  id: chumillas1
+  level: Begginer
+  title: Responsive Images and Art Direction in Drupal 8
+  url: /en/session/responsive-images-and-art-direction-drupal8/
+  languages: es
+  description: >
+    Optimizing images can drastically decrease the page load time because, on average, 60% of a website’s page weight is made up of them. Responsive Web Design has changed how the web is built and that includes images too, because the aim is to deliver the highest quality image supported and nothing more. So today we have new standard elements and attributes to work with images widely supported by browsers (and polyfills for the rest) and Drupal has incorporated them.
+
+      In Drupal 8 the Responsive Image module is in core and is prepared to solve a wide range of needs. And, as usually happens in Drupal, there are several contributed modules that help us to improve the basic needs or to solve the special ones, like Art Direction.
+
+      I’ll start this session with a quick introduction about the different existing solutions for responsive images to be sure we are all at the same page. I’ll explain the difference between viewport sizing and Art Direction and how we are supposed to work with Drupal for each one, including demos. I’ll share tips and contrib modules that can make the developer and the final user lives easier.
+
+      When you leave this session you’ll have an idea about the options offered by Drupal and enough knowledge to choose the correct one for your project.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Siddharta Navarro Castellar
+  id: siddi1
+  level: Begginer
+  title: Extreme page composition with Paragraphs
+  url: /en/session/extreme-page-composition-with-paragraphs/
+  languages: en
+  description: >
+    Have you ever wanted to create a very dynamic content, with many different relative sections, but do not want a HTML guru to create this. A novice content editor may make something that looks good once but just try to make this responsive.
+
+      The paragraphs module is changing the way we think about assembling content within Drupal. It provides a powerful tool for doing content-first based design and content management in Drupal 7 and 8.
+
+      In this session will provide an overview of Paragraphs and show some real examples of the use of this module.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Robert Menetray Caballero
+  id: robert1
+  level: Intermediate
+  title: Gestión de configuraciones con CMI (Drupal 8)
+  url: /en/session/gestion-de-configuraciones-con-cmi-drupal8/
+  languages: es
+  description: >
+    CMI (Configuration Management Initiative) es el sustituto de Features en Drupal 8, mucho mas potente y mucho más fácil de usar.
+
+      El beneficio de usar estas herramientas es no tener que hacer los cambios manualmente en todos los entornos en los que se trabaja (servidores de desarrollo, de test y de producción).
+
+      Algunos temas que se tratarán serán&#58;
+      - Cómo usarlo desde interfaz y desde drush.
+      - Módulos que ayudan a simplificar el trabajo.
+      - Cómo sobrescribir valores para poder tener configuraciones distintas entre entornos.
+      - Cómo evitar que se exporten configuraciones de algunos módulos y evitar que se activen módulos que solo deben de estar en el entorno de desarrollo.
+
+      Se explicará qué es CMI y se hará una breve demo en vivo si hay tiempo.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Juanen Bernal
+  drupal: jansete
+  id: jansete2
+  level: Intermediate
+  title: Hacia rutas salvajes
+  url: /en/session/hacia-rutas-salvajes/
+  languages: es
+  description: >
+    Routes, Controllers, Symfony, Programación Orientada a Objetos... todas estas novedades y muchas más se han encargado de dejar atrás a nuestro viejo compañero de viaje hook_menu().
+
+      En esta charla nos adentraremos de lleno en el sistema de Routing de Drupal 8 que está basado en el potente componente de Routing de Symfony, empezando desde lo más sencillo hasta llegar a las partes más avanzadas. En esta odisea no caminaremos solos, ya que nos acompañarán diferentes ejemplos de código y diagramas de flujo para poder llegar a nuestro destino sanos y salvos :)
+
+      Hablaremos sobre los siguientes puntos&#58;
+      - Rutas y controladores.
+      - Entendiendo en profundidad los routing.yml.
+      - Alterando rutas existentes.
+      - Usando parámetros en las rutas.
+      - Definiendo nuestro propios Parameter Converters.
+      - Rutas dinámicas con Route Callbacks.
+      - Rutas complejas ayudándonos con los PathProcessors.
+      - Objetos relacionados con el sistema de Routing.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Marcos Cano
+  id: marcoscano2
+  level: Intermediate
+  title: Ultimate embedding in Drupal 8 with Entity Embed and Url Embed
+  url: /en/session/ultimate-embedding-in-d8-with-entity-embed-and-url-embed/
+  languages: en
+  description: >
+    Embedding media assets (images, videos, etc) in a WYSIWYG text is a long-standing problem that was dealt with in Drupal 7 in many different (and sometimes competing) ways. Drupal 8 core comes with a very basic support for embedding images out-of-the-box, but websites nowadays need to go beyond that and provide editors with a powerful tool capable of handling any type of local or remote media assets.
+
+      This is where the Entity Embed + Url Embed modules come to play. They were designed to be a standardized solution for embedding any entity or remote URL content in any WYSIWYG area in Drupal 8.
+
+      In this session we will cover the architecture of these modules, benefits of having a unified solution, how to configure them, and possible integrations with other modules of the media ecosystem, such as "Media Entity" or "Entity Browser".
+
+      Although not mandatory, people attending this session are expected to have basic site-building experience with Drupal 8, which will allow them to follow the demos and configuration steps more easily.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Carlos Jimenez
+  id: carlosjimenez1
+  level: Intermediate
+  title: The lazy way to production
+  url: /en/session/the-lazy-way-to-production/
+  languages: en
+  description: >
+    I'll show how to deploy to production when you only press the button merge pull request.
+
+      The tools I will explain in this session will be&#58;
+      - https://concourse.ci/ for build the pipeline
+      - https://platform.sh/ for deploying environment
+      - tests performance, behavior, visual regression, security or whatever you want!
+      - syncs & backups/snapshots
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Rodrigo Aguilera
+  id: rodrigoaguilera1
+  level: Intermediate
+  title: Better dependency management&#58; leverage composer for good
+  url: /en/session/better-dependency-management-leverage-composer-for-good/
+  languages: en
+  description: >
+    Drush make days are over. Drupal in its effort to "get off the island" has adopted a new but popular tool for dependency management in the PHP ecosystem: composer.
+
+      I will go through the basics of how to use this tool quickly and some interesting features like caching, semantic versioning, class autoloading, etc.
+
+      The I will folllow with the main ways I found to leverage composer and do more with it&#58;
+      - Scaffold your Drupal project (initializing)
+      - Apply patches from the community to Drupal core and modules
+      - Differentiate dependencies for development from the rest
+      - Get exact same version of libraries for all developers
+      - Download frontend libraries
+      - Download compiled binary tools for my machine.
+
+      And if the time allows we can open a discussion about good practices and tricks to make our composer experience better.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Cinta Màdico
+  id: cintamadico1
+  level: Begginner
+  title: SEO y marketing para Drupal
+  url: /en/session/seo-y-marketing-para-drupal/
+  languages: es
+  description: >
+    Drupal cuenta con un montón de módulos que permiten optimizar el posicionamiento en buscadores de los sites construidos en Drupal.
+
+      El módulo SEO checklist nos puede ayudar a llevar el control de qué módulos hemos instalado y configurado en nuestro site.
+
+      En la sesión revisaremos algunas de las herramientas disponibles para Drupal 8, repasaremos las recomendaciones más importantes para el posicionamiento en buscadores y ofreceremos también algunos tips sobre la medición de resultados mediante Google Tag Manager y Google Analytics. También daremos una pincelada sobre lo que es AMP y cómo puede ayudarnos a un buen posicionamiento de nuestra web para móviles.
+
+      Esta es una sesión pensada tanto para desarrolladores y sitebuilders Drupal que quieran conocer las herramientas SEO como para responsables de contenidos o  de marketing que trabajan con Drupal u otros CMS y con Google Analytics.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Samuel Solís
+  id: samuelsolis2
+  level: Intermediate
+  title: Jugando con Form API en D8
+  url: /en/session/jugando-con-form-api-en-d8/
+  languages: es
+  description: >
+    Form API es una de las cosas que menos ha evolucionado desde Drupal 6 y el principal motivo es que funciona y que lo hace bien y rápido. Además el código es claro y sencillo de leer lo que hace que sea mantenible en el tiempo.
+
+      Pero que no haya cambiado en forma no significa que no haya evolucionado ni presentado novedades, ¡Ni mucho menos! Form API en D8 es mucho más que un array con el tipo de campo y el valor por defecto.
+
+      El objetivo de la sesión es mostrar el abanico de herramientas que ofrece Form API en Drupal 8. Comenzaremos viendo la creación de un formulario simple desde 0 (cosa que lleva 15 minutos) y acabaremos explorando las opciones que ofrece haciendo especial hincapié en Ajax api, la nueva awesónica manera de hacer un formulario dinámico y personalizado sin tirar ni una línea de Javascript (sí, en versiones anteriores también se podía, pero).
+
+      ¿A quién va dirigida esta sesión?
+      Está pensada para todo aquel que tenga experiencia tocando código pero no conozca las bondades de Drupal 8 en lo que a formularios se refiere. Incluso si no tocas código demasiado a menudo posíblemente captes el mensaje, ¡aunque igual cuando te pongas a probar tardes un pelín más en hacerlo funcionar! Eso sí, primero veremos código, después más código, y terminaremos viendo un poco más de código (y quizá algún gatito).
+
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Luis Ortiz Ramos
+  id: luisortiz1
+  level: Intermediate
+  title: Layout Discovery&#58; el nuevo estándar para el registro de layouts en el núcleo de Drupal
+  url: /en/session/layout-discovery-el-nuevo-estandar-para-el-registro-de-layouts-en-core/
+  languages: es
+  description: >
+    Desde la versión 8.3.0, el núcleo de Drupal incluye el módulo Layout Discovery de forma experimental.
+
+      Este módulo nos permite crear nuevos layouts de una forma sencilla, simplemente incluyendo un archivo YAML y una plantilla en nuestro módulo o tema.
+
+      Luego, otros módulos como Display Suite, Panels o el nuevo Field Layout (también en el núcleo) los utilizan, permitiendo al administrador configurar como se muestran diferentes elementos que elementos del sitio.
+
+      En esta sesión&#58;
+
+      - Contaremos la historia de los módulos que utilizan Layout Discovery
+      - Explicaremos que es un Plugin, como se utilizan y que tiene que ver con Layout Discovery
+      - Crearemos nuestro propio Layout sencillo
+      - Repasaremos como crear Layouts avanzados
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Oriol Diez - Josep Lluís Amador
+  id: diezamador1
+  level: Intermediate
+  title: Integrando Drupal con el ERP/CRM Dolibarr&#58; la Alianza del OpenSource
+  url: /en/session/integrando-drupal-con-erp-crm-dolibarr-la-alianza-opensource/
+  languages: es
+  description: >
+    Introducción al ERP/CRM Dolibarr, proyecto libre con licencia GPL, desarrollado con PHP, Javascript y MySQL, y con diferentes posibilidades para integrarse con Drupal para compartir datos de clientes, contactos, productos o servicios de una empresa o asociación.
+
+- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+  speaker: Cristian López Espinola
+  drupal: penyaskito
+  id: penyaskito1
+  url: /en/session/abcde/
+  level: ??
+  title: ??
+  languages: en
+  description: >
+    pending description
