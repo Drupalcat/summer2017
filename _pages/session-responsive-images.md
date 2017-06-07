@@ -1,21 +1,21 @@
 ---
 layout: session
 title: Responsive Images and Art Direction in Drupal 8
-permalink: /en/session/responsive-images-and-art-direction-drupal8/
+permalink: /es/session/responsive-images-and-art-direction-drupal8/
 language: es
 tid: chumillas1
 seo:
  description: Responsive Images and Art Direction in Drupal 8
- keys: 
+ keys:
 
 date: Sábado 01 de julio
 place: Citilab
 time:  "9:30 a 10:30"
-seatingCapacity: 40
+seatingCapacity:
 speaker:
-  pic: 
+  pic:
   name: Cristina Chumillas
-  drupal: 
+  drupal:
   facebook:
   twitter:
 ---
