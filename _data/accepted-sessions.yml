@@ -3,7 +3,7 @@
   drupal: e0ipso
   id: e0ipso1
   level: ???
-  title: ???
+  title: TBD
   url: /en/session/abc/
   languages: es
   description: >
@@ -14,8 +14,8 @@
   drupal: dawehner
   id: dawehner1
   level: ???
-  title: ???
-  url: /en/session/abcd/
+  title: Drupal 8 best practices in the wild
+  url: /en/session/drupal-8-best-practices-in-the-wild/
   languages: es
   description: >
     pending description
@@ -213,12 +213,12 @@
     Introducción al ERP/CRM Dolibarr, proyecto libre con licencia GPL, desarrollado con PHP, Javascript y MySQL, y con diferentes posibilidades para integrarse con Drupal para compartir datos de clientes, contactos, productos o servicios de una empresa o asociación.
 
 - length: Xerrada completa / Charla completa / Full Talk - 45 minutes
-  speaker: Cristian López Espinola
-  drupal: penyaskito
-  id: penyaskito1
-  url: /en/session/abcde/
+  speaker: TBD
+  drupal:
+  id: tbd1
+  url: /en/session/tbd/
   level: ??
-  title: ??
+  title: TBD
   languages: en
   description: >
     pending description
