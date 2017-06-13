@@ -35,6 +35,9 @@
 - name: Runroom
   logo: /assets/images/sponsors/logo-runroom.svg
   url: https://www.runroom.com/
+- name: AngularCamp 2017
+  logo: /assets/images/sponsors/logo-angularcamp_barcelona_2017.svg
+  url: https://angularcamp.org/
 #- name: Swiftcircle
 #  logo: /assets/images/sponsors/logo-swiftcircle.svg
 #  url: http://swiftcircle.com/
