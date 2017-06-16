@@ -9,7 +9,7 @@ seo:
  keys:
 
 date: Sábado 01 de julio
-place: Citilab
+place: Citilab, Sala B
 time:  "13:00 a 14:00"
 seatingCapacity:
 speaker:

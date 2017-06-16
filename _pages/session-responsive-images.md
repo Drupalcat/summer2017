@@ -11,7 +11,6 @@ seo:
 date: Sábado 01 de julio
 place: Citilab
 time:  "9:30 a 10:30"
-seatingCapacity:
 speaker:
   pic:
   name: Cristina Chumillas

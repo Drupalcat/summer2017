@@ -7,7 +7,11 @@
   url: /en/session/contenta-makes-your-content-happy/
   languages: en
   description: >
-    pending description
+    One of the conclussions of DrupalCon Baltimore was that Drupal 8 has impressive tools to build a decoupled application. However, assembling all the tools together and setting them up correctly can be a little bit daunting. On top of that, once you have everything set up you need to figure out the ins and outs of your front-end project.
+
+      With this in mind, Contenta CMS is born to make your content happy. Contenta CMS is the response of the community to build an API-First Drupal distribution. The goals of Contenta are simple&#58; provide a standard platform that is API ready along with demo content and example front-end applications. In summary Contenta intends to ease the pain of using, or simply trying, decoupled Drupal.
+
+      In this session you will learn how we achieve this goals, what is the roadmap of the projects and how easy it is to try decoupled Drupal using Contenta.
 
 - length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Daniel Wehner
@@ -25,7 +29,7 @@
   id: chumillas1
   level: Begginer
   title: Responsive Images and Art Direction in Drupal 8
-  url: /en/session/responsive-images-and-art-direction-drupal8/
+  url: /es/session/responsive-images-and-art-direction-drupal8/
   languages: es
   description: >
     Optimizing images can drastically decrease the page load time because, on average, 60% of a website’s page weight is made up of them. Responsive Web Design has changed how the web is built and that includes images too, because the aim is to deliver the highest quality image supported and nothing more. So today we have new standard elements and attributes to work with images widely supported by browsers (and polyfills for the rest) and Drupal has incorporated them.
@@ -55,7 +59,7 @@
   id: robert1
   level: Intermediate
   title: Gestión de configuraciones con CMI (Drupal 8)
-  url: /en/session/gestion-de-configuraciones-con-cmi-drupal8/
+  url: /es/session/gestion-de-configuraciones-con-cmi-drupal8/
   languages: es
   description: >
     CMI (Configuration Management Initiative) es el sustituto de Features en Drupal 8, mucho mas potente y mucho más fácil de usar.
@@ -76,7 +80,7 @@
   id: jansete2
   level: Intermediate
   title: Hacia rutas salvajes
-  url: /en/session/hacia-rutas-salvajes/
+  url: /es/session/hacia-rutas-salvajes/
   languages: es
   description: >
     Routes, Controllers, Symfony, Programación Orientada a Objetos... todas estas novedades y muchas más se han encargado de dejar atrás a nuestro viejo compañero de viaje hook_menu().
@@ -152,7 +156,7 @@
   id: cintamadico1
   level: Begginner
   title: SEO y marketing para Drupal
-  url: /en/session/seo-y-marketing-para-drupal/
+  url: /es/session/seo-y-marketing-para-drupal/
   languages: es
   description: >
     Drupal cuenta con un montón de módulos que permiten optimizar el posicionamiento en buscadores de los sites construidos en Drupal.
@@ -168,7 +172,7 @@
   id: samuelsolis2
   level: Intermediate
   title: Jugando con Form API en D8
-  url: /en/session/jugando-con-form-api-en-d8/
+  url: /es/session/jugando-con-form-api-en-d8/
   languages: es
   description: >
     Form API es una de las cosas que menos ha evolucionado desde Drupal 6 y el principal motivo es que funciona y que lo hace bien y rápido. Además el código es claro y sencillo de leer lo que hace que sea mantenible en el tiempo.
@@ -186,7 +190,7 @@
   id: luisortiz1
   level: Intermediate
   title: Layout Discovery&#58; el nuevo estándar para el registro de layouts en el núcleo de Drupal
-  url: /en/session/layout-discovery-el-nuevo-estandar-para-el-registro-de-layouts-en-core/
+  url: /es/session/layout-discovery-el-nuevo-estandar-para-el-registro-de-layouts-en-core/
   languages: es
   description: >
     Desde la versión 8.3.0, el núcleo de Drupal incluye el módulo Layout Discovery de forma experimental.
@@ -207,7 +211,7 @@
   id: dolibarr1
   level: Intermediate
   title: Integrando Drupal con el ERP/CRM Dolibarr&#58; la Alianza del OpenSource
-  url: /en/session/integrando-drupal-con-erp-crm-dolibarr-la-alianza-opensource/
+  url: /es/session/integrando-drupal-con-erp-crm-dolibarr-la-alianza-opensource/
   languages: es
   description: >
     Introducción al ERP/CRM Dolibarr, proyecto libre con licencia GPL, desarrollado con PHP, Javascript y MySQL, y con diferentes posibilidades para integrarse con Drupal para compartir datos de clientes, contactos, productos o servicios de una empresa o asociación.

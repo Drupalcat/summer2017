@@ -9,7 +9,7 @@ seo:
  keys:
 
 date: Sábado 01 de julio
-place: Citilab
+place: Citilab, Auditori
 time:  "17:30 a 18:30"
 seatingCapacity:
 speaker:

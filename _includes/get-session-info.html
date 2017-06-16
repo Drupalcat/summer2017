@@ -1,6 +1,6 @@
 {% if include.session.size > 0 %}
   {% assign session = include.session %}
-  <div class="session__title">{{ session.title }}</div>
+  <div class="session__title"><a href="{{ session.url }}">{{ session.title }}</a></div>
   <div class="session__speaker">{{ session.speaker }}</div>
   <div class="session__language--{{ session.languages }}">{{ session.languages }}</div>
 {% endif %}
