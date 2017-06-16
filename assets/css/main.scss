@@ -2028,6 +2028,15 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 	background-color: #eee;
 	margin-bottom: 2em;
 
+	&__label{
+		font-weight: bold;
+		display: inline-block;
+
+		@include breakpoint(medium) {
+			display: block;
+		}
+	}
+
 	.session__level{
 		display: inline-block;
 		width: auto;
