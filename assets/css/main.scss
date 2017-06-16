@@ -2002,6 +2002,41 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 .session__info {
   text-align: center; }
 
+.session__level{
+	width: 4em;
+	height: 2em;
+	margin: 1em auto 0 auto;
+	background: transparent url(images/level_begginer.svg) center center no-repeat;
+	background-size: 3em;
+
+	&--begginer{
+		@extend .session__level;
+		background-image: url(images/level_begginer.svg);
+	}
+	&--intermediate{
+		@extend .session__level;
+		background-image: url(images/level_intermediate.svg);
+	}
+	&--advanced{
+		@extend .session__level;
+		background-image: url(images/level_advanced.svg);
+	}
+}
+
+.legend{
+	padding: .5em;
+	background-color: #eee;
+	margin-bottom: 2em;
+
+	.session__level{
+		display: inline-block;
+		width: auto;
+		margin: 0 1em;
+		padding-left: 5em;
+		background-position: left center;
+	}
+}
+
 .featured-session {
   background-color: #2E3842;
   border-radius: 3px;

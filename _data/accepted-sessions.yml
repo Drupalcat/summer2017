@@ -22,7 +22,11 @@
   url: /en/session/drupal-8-best-practices-in-the-wild/
   languages: en
   description: >
-    pending description
+    After Drupal 8 finally shipped (basically at Drupalcon Barcelona 2015) people start to build more and more sites. Let's have a look at some of the best practices which evolved over time&#58;
+
+    - Site building
+    - Development workflow
+    - Launch / Hosting
 
 - length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Cristina Chumillas

@@ -19,4 +19,8 @@ speaker:
   facebook:
   twitter:
 ---
-Description TBC
+After Drupal 8 finally shipped (basically at Drupalcon Barcelona 2015) people start to build more and more sites. Let's have a look at some of the best practices which evolved over time:
+
+- Site building
+- Development workflow
+- Launch / Hosting

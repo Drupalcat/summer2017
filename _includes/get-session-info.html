@@ -3,4 +3,7 @@
   <div class="session__title"><a href="{{ session.url }}">{{ session.title }}</a></div>
   <div class="session__speaker">{{ session.speaker }}</div>
   <div class="session__language--{{ session.languages }}">{{ session.languages }}</div>
+  {% if session.level %}
+  <div class="session__level--{{ session.level | downcase }}"></div>
+  {% endif %}
 {% endif %}
