@@ -24,11 +24,17 @@ Drush make days are over. Drupal in its effort to "get off the island" has adopt
 I will go through the basics of how to use this tool quickly and some interesting features like caching, semantic versioning, class autoloading, etc.
 
 Then I will folllow with the main ways I found to leverage composer and do more with it&#58;
+
       - Scaffold your Drupal project (initializing) with the drupal composer project.
+
       - Apply patches from the community to Drupal core, modules, themes, libraries, etc.
+      
       - Differentiate dependencies for development from the rest.
+      
       - Get exact same version of libraries for all developers.
+      
       - Download frontend libraries.
+      
       - Download compiled binary tools for the architecture of your machine.
 
 And if the time allows it we can open a discussion about good practices and tricks to make our composer experience better.
