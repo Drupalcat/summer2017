@@ -1,11 +1,11 @@
 ---
 layout: session
-title: Better dependency management&#58; leverage composer for good
+title: Better dependency management - leverage composer to the limit
 permalink: /en/session/better-dependency-management-leverage-composer-for-good/
 language: en
 tid: rodrigoaguilera1
 seo:
- description: Better dependency management - leverage composer for good
+ description: Better dependency management - leverage composer to the limit
  keys:
 
 date: Sábado 01 de julio
@@ -21,7 +21,7 @@ speaker:
 ---
 Drush make days are over. Drupal in its effort to "get off the island" has adopted a new but popular tool for dependency management in the PHP ecosystem: composer.
 
-I will go through the basics of how to use this tool quickly and some interesting features like caching, semantic versioning, class autoloading, etc.
+I will quickly go through the basics of how to use this tool and some interesting features like caching, semantic versioning, class autoloading, etc.
 
 Then I will folllow with the main ways I found to leverage composer and do more with it&#58;
 
@@ -38,3 +38,9 @@ Then I will folllow with the main ways I found to leverage composer and do more 
       - Download compiled binary tools for the architecture of your machine.
 
 And if the time allows it we can open a discussion about good practices and tricks to make our composer experience better.
+
+This session is aimed at&#58;
+
+ - developers who alredy had some experience with composer and see the potential of the tool.
+ 
+ - People who are used to Drupal 7 workflows and want to bring them to 2017
