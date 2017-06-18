@@ -45,4 +45,4 @@ This session is aimed at&#58;
  
  - People who are used to Drupal 7 workflows and want to bring them to 2017
 
-I have been using composer for every Drupal 8 project since the pre 1.0 stable days and have alway advocated the use of this tools while discovering new things people were bringing into their composer files to make their workflows easier and saner. 
+I have been using composer for every Drupal 8 project since the pre 1.0 stable days and have always advocated the use of this tool while discovering new things people were bringing into their composer files to make their workflows easier and saner. 
