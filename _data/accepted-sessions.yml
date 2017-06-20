@@ -2,7 +2,7 @@
   speaker: Mateu Aguiló
   drupal: e0ipso
   id: e0ipso1
-  level: ???
+  level: begginer
   title: Contenta makes your content happy
   url: /en/session/contenta-makes-your-content-happy/
   languages: en
@@ -17,7 +17,7 @@
   speaker: Daniel Wehner
   drupal: dawehner
   id: dawehner1
-  level: ???
+  level: begginer
   title: Drupal 8 best practices in the wild
   url: /en/session/drupal-8-best-practices-in-the-wild/
   languages: en
@@ -158,7 +158,7 @@
 - length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Cinta Màdico
   id: cintamadico1
-  level: Begginner
+  level: Begginer
   title: SEO y marketing para Drupal
   url: /es/session/seo-y-marketing-para-drupal/
   languages: es

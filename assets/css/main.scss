@@ -2293,11 +2293,19 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 
 		@include breakpoint(small) {
 			min-height: 10.5em;
+			font-size: .7rem;
+			line-height: 1.3rem;
+			margin-bottom: .5em;
 		}
 	}
 
 	.session__speaker{
 		margin-bottom: 1em;
+
+		@include breakpoint(small) {
+			font-size: .7rem;
+			line-height: 1.3rem;
+		}
 	}
 
 	.session__language{
