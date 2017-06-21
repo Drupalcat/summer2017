@@ -271,9 +271,9 @@ summer_party:
   es: Summer party!
 
 summer_party_url:
-  ca: /ca/summer-night/
-  en: /en/summer-night/
-  es: /es/summer-night/
+  ca: /ca/summer-party/
+  en: /en/summer-party/
+  es: /es/summer-party/
 
 mentoring_session:
   ca: Iniciació a la contribució

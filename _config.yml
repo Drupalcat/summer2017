@@ -91,14 +91,16 @@ main-menu:
   ca:
     - name: inici
       url: /ca/
-#    - name: ponents destacats
-#      url: "/ca/#speakers"
-#    - name: elements
-#      url:  /elements.html
+    - name: ponents destacats
+      url: "/ca/#speakers"
+      #    - name: elements
+      #      url:  /elements.html
     - name: Programa
       url: "/ca/programa/"
     - name: Sessions
       url: "/ca/programa/dissabte/"
+    - name: Summer party!
+      url: /ca/summer-party/
     - name: patrocinadors
       url: "/ca/#sponsors"
     - name: codi de conducta
@@ -110,10 +112,12 @@ main-menu:
       url: "/en/schedule/"
     - name: Sessions
       url: "/en/schedule/saturday/"
-#    - name: featured speakers
-#      url: "/en/#speakers"
-#    - name: elements
-#      url:  /elements.html
+    - name: Summer party!
+      url: /en/summer-party/
+    - name: featured speakers
+      url: "/en/#speakers"
+      #    - name: elements
+      #      url:  /elements.html
     - name: sponsors
       url: "/en/#sponsors"
     - name: code of conduct
@@ -125,10 +129,12 @@ main-menu:
       url: "/es/programa/"
     - name: Sesiones
       url: "/es/programa/sabado/"
-#   - name: ponenetes destacados
-#     url: "/es/#speakers"
-#   - name: elementos
-#     url:  /elements.html
+    - name: Summer party!
+      url: /es/summer-party/
+    - name: ponenetes destacados
+      url: "/es/#speakers"
+      #   - name: elementos
+      #     url:  /elements.html
     - name: patrocinadores
       url: "/es/#sponsors"
     - name: código de conducta
