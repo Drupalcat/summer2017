@@ -18,11 +18,13 @@ gallery:
 ---
 
 ## On
-Enguany hem reservat el sopar de dissabte al [XIROI Ca la Nuri]({{ web_restaurant }}). EL preu del menú és de 35 € i consta d'un pica pica d'entrants i un principal a escollir al restaurant.
+Enguany hem reservat el sopar de dissabte al [XIROI Ca la Nuri]({{ page.web_restaurant }}){:target="_blank"}. EL preu del menú és de 35 € i consta d'un pica pica d'entrants i un principal a escollir al restaurant.
 
 Després del sopar podem gaudir del chillout on ens han deixat les copes a 3€.
 
-**Hem de fer la reserva abans del dia 28 de juny, si no vols perdre't la Summer Party [apunta't aquí]({{ page.doodle }})**.
+**Hem de fer la reserva abans del dia 28 de juny, si no vols perdre't la Summer Party:**
+
+[apunta't aquí]({{ page.doodle }}){:.button}
 
 ## MENÚ:
 ### ENTRANTS PER COMPARTIR

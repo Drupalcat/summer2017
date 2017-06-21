@@ -18,11 +18,13 @@ gallery:
 ---
 
 ## On
-This year we booked the Saturday dinner at [XIROI Ca la Nuri]({{ web_restaurant }}). The price of the menu is € 35 and consists of shared starters and a main course to choose in the restaurant.
+This year we booked the Saturday dinner at [XIROI Ca la Nuri]({{ page.web_restaurant }}){: target="_blank"}. The price of the menu is € 35 and consists of shared starters and a main course to choose in the restaurant.
 
 After dinner we can enjoy the chillout where drinks will cost € 3.
 
-**We must make the reservation before June 28, if you do not want to miss the Summer party [register now]({{ page.doodle }})**.
+**We must make the reservation before June 28, if you do not want to miss the Summer party:**
+
+[register now]({{ page.doodle }}){:.button}
 
 ## MENÚ:
 ### SHARED STARTERS

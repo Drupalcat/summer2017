@@ -18,11 +18,13 @@ gallery:
 ---
 
 ## On
-Este año hemos reservado la cena del sábado en el [XIROI Ca la Nuri]({{ web_restaurant }}). El precio del menú es de 35 € y consta de un pica pica de entrantes y un principal a elegir en el restaurante.
+Este año hemos reservado la cena del sábado en el [XIROI Ca la Nuri]({{ page.web_restaurant }}){: target="_blank"}. El precio del menú es de 35 € y consta de un pica pica de entrantes y un principal a elegir en el restaurante.
 
 Después de la cena podemos disfrutar del chillout donde nos han dejado las copas a 3 €.
 
-**Debemos hacer la reserva antes del día 28 de junio, si no quieres perderte la Summer party [apúntate ahora]({{ page.doodle }})**.
+**Debemos hacer la reserva antes del día 28 de junio, si no quieres perderte la Summer party:**
+
+[apúntate ahora]({{ page.doodle }}){:.button}
 
 ## MENÚ:
 ### ENTRANTES PARA COMPARTIR
