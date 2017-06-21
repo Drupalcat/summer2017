@@ -12,6 +12,13 @@ layout: default
     <div class="inner">
       {{ content }}
     </div>
+    {% if page.gallery %}
+      <div class="gallery">
+      {% for item in page.gallery %}
+        <img src="{{ item.img }}" alt="">
+      {% endfor %}
+      </div>
+    {% endif%}
   </section>
 
 </article>
