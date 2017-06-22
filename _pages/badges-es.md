@@ -5,7 +5,7 @@ permalink: /es/badges/
 language: es
 tid: badges
 seo:
- description: 
+ description: Te animamos a que utilices estos badges en tus sitios web y redes sociales para ayudarnos a promocionar la Drupal Summer.
 ---
 
 Te animamos a que utilices estos badges en tus sitios web y redes sociales para ayudarnos a promocionar la Drupal Summer.
