@@ -38,6 +38,9 @@
 - name: AngularCamp 2017
   logo: /assets/images/sponsors/logo-angularcamp_barcelona_2017.png
   url: https://angularcamp.org/
+- name: Barcelona Bagels
+  logo: /assets/images/sponsors/logo-barcelona-bagels.png
+  url: http://barcelonabagels.cat/
 #- name: Swiftcircle
 #  logo: /assets/images/sponsors/logo-swiftcircle.svg
 #  url: http://swiftcircle.com/
