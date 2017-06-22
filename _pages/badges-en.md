@@ -5,10 +5,10 @@ permalink: /en/badges/
 language: en
 tid: badges
 seo:
- description: 
+ description: We encourage you to use these badges on your websites and social networks to promote Drupal Summer.
 ---
 
-We encourage you to use these badges on your websites and social networks to promote DrupalSummer.
+We encourage you to use these badges on your websites and social networks to promote Drupal Summer.
 
 ## I'M SPONSOR
 <img src="/assets/images/badges/Badges_2017_sponsor_1.jpg" title="I'm sponsor"/><br/><br/>

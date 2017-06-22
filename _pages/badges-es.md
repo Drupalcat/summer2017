@@ -8,7 +8,7 @@ seo:
  description: 
 ---
 
-Te animamos a que utilices estos badges en tus sitios web y redes sociales para ayudarnos a promocionar la DrupalSummer.
+Te animamos a que utilices estos badges en tus sitios web y redes sociales para ayudarnos a promocionar la Drupal Summer.
 
 ## I'M SPONSOR
 <img src="/assets/images/badges/Badges_2017_sponsor_1.jpg" title="I'm sponsor"/><br/><br/>
