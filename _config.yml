@@ -103,6 +103,8 @@ main-menu:
       url: /ca/summer-party/
     - name: patrocinadors
       url: "/ca/#sponsors"
+    - name: badges
+      url: "/ca/badges/"
     - name: codi de conducta
       url: /ca/codi-de-conducta/
   en:
@@ -120,6 +122,8 @@ main-menu:
       #      url:  /elements.html
     - name: sponsors
       url: "/en/#sponsors"
+    - name: badges
+      url: "/en/badges/"
     - name: code of conduct
       url: /en/code-of-conduct/
   es:
@@ -137,5 +141,7 @@ main-menu:
       #     url:  /elements.html
     - name: patrocinadores
       url: "/es/#sponsors"
+    - name: badges
+      url: "/es/badges/"
     - name: código de conducta
       url: /es/codigo-de-conducta/
