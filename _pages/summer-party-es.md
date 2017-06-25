@@ -18,7 +18,7 @@ gallery:
 ---
 
 ## On
-Este año hemos reservado la cena del sábado en el [XIROI Ca la Nuri]({{ page.web_restaurant }}){: target="_blank"}. El precio del menú es de 35 € y consta de un pica pica de entrantes y un principal a elegir en el restaurante.
+Este año hemos reservado la cena del sábado en el [XIROI Ca la Nuri]({{ page.web_restaurant }}){: target="_blank"}. El precio del menú es de 25 € y consta de un pica pica de entrantes y un principal a elegir en el restaurante.
 
 Después de la cena podemos disfrutar del chillout donde nos han dejado las copas a 3 €.
 
