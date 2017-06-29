@@ -1,5 +1,5 @@
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
-<meta property="og:image" content="{% if page.seo.image %}{{ site.url }}{{ page.seo.image }}{% else %}{{ site.seo.default_image }}{% endif %}" />
+<meta property="og:image" content="{% if page.seo.image %}{{ site.url }}{{ page.seo.image }}{% else %}{{ site.url }}{{ site.seo.default_image }}{% endif %}" />
 <meta property="og:description" content="{% if page.seo.description %}{{ page.seo.description }}{% else %}{{ T.description[current_language] }}{% endif %}" />
