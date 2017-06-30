@@ -40,7 +40,7 @@ If people are unable to work out issues between themselves, they are encouraged 
 You may contact the Drupal Summer Barcelona CoC Volunteers to help mediate or resolve issues via email or reaching them directly during the event.
 
     Cristina Chumillas - cristina@drupal.cat
-    Christian López - penyaskito@penyaskito.com
+    Rodrigo Aguilera - rodrigoaguileraparraga@gmail.com
 
 ## WHEN WE NEED IT, WE ASK FOR HELP
 
