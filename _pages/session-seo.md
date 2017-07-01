@@ -18,6 +18,8 @@ speaker:
   drupal:
   facebook:
   twitter:
+sesionSlides:
+  - src: https://www.slideshare.net/CintaMdico/seo-and-drupal8
 ---
 Drupal cuenta con un montón de módulos que permiten optimizar el posicionamiento en buscadores de los sites construidos en Drupal.
 
