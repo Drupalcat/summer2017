@@ -18,13 +18,16 @@ gallery:
 ---
 
 ## On
+
+**Where: [XIROI Ca la Nuri]({{ https://goo.gl/maps/pRCdPtQwVs72 }}){: target="_blank"}**
+
+**When: 21:00h**
+
+*REGISTER CLOSED. If you want to sign up ask the organizers to know if there are spots left.*
+
 This year we booked the Saturday dinner at [XIROI Ca la Nuri]({{ page.web_restaurant }}){: target="_blank"}. The price of the menu is € 25 and consists of shared starters and a main course to choose in the restaurant.
 
-After dinner we can enjoy the chillout where drinks will cost € 3.
-
-**We must make the reservation before June 28, if you do not want to miss the Summer party:**
-
-[register now]({{ page.doodle }}){:.button}
+After the dinner we'll be able to enjoy the chillout, with a special price for drinks € 3.
 
 ## MENÚ:
 ### SHARED STARTERS

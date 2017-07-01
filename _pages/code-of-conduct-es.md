@@ -40,7 +40,7 @@ Si no es posible encontrar una solución a los problemas entre los involucrados,
 Puedes contactar con los Voluntarios de Código de Conducta del Drupal Summer Barcelona para ayudar a mediar o resolver las incidencias por email, o buscándolos directamente en persona durante el evento.
 
     Cristina Chumillas - cristina@drupal.cat
-    Christian López - penyaskito@penyaskito.com
+    Rodrigo Aguilera - rodrigoaguileraparraga@gmail.com
 
 ## CUANDO NECESITAMOS, PEDIMOS AYUDA
 
