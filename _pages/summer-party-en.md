@@ -11,15 +11,16 @@ seo:
 
 doodle: https://beta.doodle.com/poll/mwmmgmq7kdqdaetx#table
 web_restaurant: http://www.xiroi.calanuri.com/en/
+map: https://goo.gl/maps/pRCdPtQwVs72
 
 gallery:
   - img: /assets/images/xiroi_1.jpg
   - img: /assets/images/xiroi_2.jpg
 ---
 
-## On
+## Where
 
-**Where: [XIROI Ca la Nuri]({{ https://goo.gl/maps/pRCdPtQwVs72 }}){: target="_blank"}**
+**Where: [XIROI Ca la Nuri]({{ page.map }}){: target="_blank"}**
 
 **When: 21:00h**
 

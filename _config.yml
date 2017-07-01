@@ -107,6 +107,8 @@ main-menu:
       url: "/ca/badges/"
     - name: codi de conducta
       url: /ca/codi-de-conducta/
+    - name: Foto de grup
+      url: "/ca/foto-de-grup/"
   en:
     - name: home
       url: /en/
@@ -126,6 +128,8 @@ main-menu:
       url: "/en/badges/"
     - name: code of conduct
       url: /en/code-of-conduct/
+    - name: Group photo
+      url: "/en/group-photo/"
   es:
     - name: inicio
       url: /es/
@@ -145,3 +149,5 @@ main-menu:
       url: "/es/badges/"
     - name: código de conducta
       url: /es/codigo-de-conducta/
+    - name: Foto de grupo
+      url: "/es/foto-de-grupo/"
