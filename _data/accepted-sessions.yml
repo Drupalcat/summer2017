@@ -145,7 +145,7 @@
 
       I will go through the basics of how to use this tool quickly and some interesting features like caching, semantic versioning, class autoloading, etc.
 
-      Then I will folllow with the main ways I found to leverage composer and do more with it&#58;
+      Then I will follow with the main ways I found to leverage composer and do more with it&#58;
       - Scaffold your Drupal project (initializing) with the drupal composer project.
       - Apply patches from the community to Drupal core, modules, themes, libraries, etc.
       - Differentiate dependencies for development from the rest.
