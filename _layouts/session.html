@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+{% include get-current-language.html %}
+{% assign T = site.data.translations %}
 <article id="main">
 
   <header>
@@ -22,7 +24,16 @@ layout: default
         {% if page.speakingLanguage %}{{ page.speakingLanguage | prepend: "<strong>Idioma:</strong> "}}{% endif %}
       </p>
 
+      {% if page.sesionSlides %}
+      <div class="session__slides">
+        {% for item in page.sesionSlides %}
+          <a class="button" href="{{ item.src }}" alt="" target="_blank">{{ T.session_slides[current_language] }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+
       {{ content }}
+
     </div>
   </section>
 

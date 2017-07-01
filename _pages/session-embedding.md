@@ -18,6 +18,10 @@ speaker:
   drupal:
   facebook:
   twitter:
+
+sesionSlides:
+  - src: http://bit.ly/drupal-summer-embedding
+
 ---
 Embedding media assets (images, videos, etc) in a WYSIWYG text is a long-standing problem that was dealt with in Drupal 7 in many different (and sometimes competing) ways. Drupal 8 core comes with a very basic support for embedding images out-of-the-box, but websites nowadays need to go beyond that and provide editors with a powerful tool capable of handling any type of local or remote media assets.
 

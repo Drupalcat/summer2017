@@ -360,3 +360,8 @@ opening:
   ca: Sessió d'obertura
   en: Opening session
   es: Sesión de apertura
+
+session_slides:
+  ca: Presentació
+  en: Session slides
+  es: Presentación
