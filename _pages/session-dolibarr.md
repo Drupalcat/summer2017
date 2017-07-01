@@ -9,7 +9,7 @@ seo:
  keys:
 
 date: Sábado 01 de julio
-place: Citilab, Sala B
+place: Citilab, Aula B
 time:  "16:30 a 17:30"
 seatingCapacity:
 speaker:
@@ -19,4 +19,3 @@ speaker:
   facebook:
   twitter:
 ---
-Introducción al ERP/CRM Dolibarr, proyecto libre con licencia GPL, desarrollado con PHP, Javascript y MySQL, y con diferentes posibilidades para integrarse con Drupal para compartir datos de clientes, contactos, productos o servicios de una empresa o asociación.

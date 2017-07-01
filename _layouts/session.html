@@ -13,7 +13,6 @@ layout: default
   <section class="wrapper style5">
     <div class="inner">
       <div class="session__speaker">
-
         <h3>by {% if page.speaker.drupal %}<a href="https://www.drupal.org/u/{{ page.speaker.drupal }}" target="_blank">{{ page.speaker.name}}</a>{% else %}{{ page.speaker.name}}{% endif %}</h3>
       </div>
       <p>
@@ -31,6 +30,9 @@ layout: default
         {% endfor %}
       </div>
       {% endif %}
+
+      {% assign session = site.data.accepted-sessions | where:'id', page.tid | first %}
+      {{ session.description | markdownify }}
 
       {{ content }}
 
