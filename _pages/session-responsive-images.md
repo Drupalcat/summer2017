@@ -17,4 +17,7 @@ speaker:
   drupal:
   facebook:
   twitter:
+
+sesionSlides:
+  - src: https://www.slideshare.net/ckrina/drupalcamp-spain-responsive-images-under-control
 ---
