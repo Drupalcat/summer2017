@@ -840,7 +840,9 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 		text-overflow: ellipsis;
 
 		&.slim {
-			padding: 0 1em;
+			padding: 0 .5em;
+			height: 2.75em;
+			line-height: 2.75em;
 		}
 
 		&:hover {
@@ -1283,6 +1285,10 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 
 		@include breakpoint(small) {
 			@include padding(3em, 2em);
+		}
+
+		@include breakpoint(xsmall) {
+			@include padding(3em, 1em);
 		}
 	}
 
