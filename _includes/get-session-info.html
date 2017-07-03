@@ -6,4 +6,11 @@
   {% if session.level %}
   <div class="session__level--{{ session.level | downcase }}"></div>
   {% endif %}
+  {% if session.sessionSlides %}
+  <div class="sssession__slides">
+    {% for item in session.sessionSlides %}
+      <a class="button slim" href="{{ item.src }}" alt="" target="_blank"><span class="session__slides__icon"></span> {{ T.session_slides[current_language] }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
 {% endif %}

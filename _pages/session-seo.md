@@ -17,6 +17,4 @@ speaker:
   drupal:
   facebook:
   twitter:
-sesionSlides:
-  - src: https://www.slideshare.net/CintaMdico/seo-and-drupal8
 ---

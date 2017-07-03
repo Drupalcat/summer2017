@@ -19,7 +19,4 @@ speaker:
   facebook:
   twitter:
 
-sesionSlides:
-  - src: http://bit.ly/drupal-summer-embedding
-
 ---

@@ -18,7 +18,4 @@ speaker:
   drupal:
   facebook:
   twitter:
-
-sesionSlides:
-  - src: http://rodrigoaguilera.github.io/talk_composer/#/
 ---

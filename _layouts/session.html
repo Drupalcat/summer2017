@@ -3,6 +3,7 @@ layout: default
 ---
 {% include get-current-language.html %}
 {% assign T = site.data.translations %}
+{% assign session = site.data.accepted-sessions | where:'id', page.tid | first %}
 <article id="main">
 
   <header>
@@ -23,15 +24,14 @@ layout: default
         {% if page.speakingLanguage %}{{ page.speakingLanguage | prepend: "<strong>Idioma:</strong> "}}{% endif %}
       </p>
 
-      {% if page.sesionSlides %}
+      {% if session.sessionSlides %}
       <div class="session__slides">
-        {% for item in page.sesionSlides %}
-          <a class="button" href="{{ item.src }}" alt="" target="_blank">{{ T.session_slides[current_language] }}</a>
+        {% for item in session.sessionSlides %}
+          <a class="button" href="{{ item.src }}" alt="" target="_blank"><span class="session__slides__icon"></span> {{ T.session_slides[current_language] }}</a>
         {% endfor %}
       </div>
       {% endif %}
 
-      {% assign session = site.data.accepted-sessions | where:'id', page.tid | first %}
       {{ session.description | markdownify }}
 
       {{ content }}

@@ -17,7 +17,4 @@ speaker:
   drupal:
   facebook:
   twitter:
-
-sesionSlides:
-  - src: http://slides.com/saphyel/lazy-way-production#/
 ---
