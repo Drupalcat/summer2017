@@ -22,6 +22,8 @@
   level: begginer
   title: Drupal 8 best practices in the wild
   url: /en/session/drupal-8-best-practices-in-the-wild/
+    sessionSlides:
+      - src: https://docs.google.com/presentation/d/1H3jnC7iLXzEcEXVPnGm4IYLS4HcjR0B3HY3fbjLWmN8/edit#slide=id.gc6f90357f_0_0
   languages: en
   description: >
     After Drupal 8 finally shipped (basically at Drupalcon Barcelona 2015) people start to build more and more sites. Let's have a look at some of the best practices which evolved over time&#58;
