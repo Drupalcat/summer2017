@@ -193,6 +193,8 @@
   level: Intermediate
   title: Jugando con Form API en D8
   url: /es/session/jugando-con-form-api-en-d8/
+  sessionSlides:
+    - src: http://slides.com/estoyausente/d8-form-api-1
   languages: es
   description: >
     Form API es una de las cosas que menos ha evolucionado desde Drupal 6 y el principal motivo es que funciona y que lo hace bien y rápido. Además el código es claro y sencillo de leer lo que hace que sea mantenible en el tiempo.
@@ -232,6 +234,8 @@
   level: Intermediate
   title: Integrando Drupal con el ERP/CRM Dolibarr&#58; la Alianza del OpenSource
   url: /es/session/integrando-drupal-con-erp-crm-dolibarr-la-alianza-opensource/
+  sessionSlides:
+    - src: https://www.slideshare.net/lliuretic/alianza-opensource-con-drupal-y-el-erpcrm-dolibarr-77540622
   languages: es
   description: >
     Introducción al ERP/CRM Dolibarr, proyecto libre con licencia GPL, desarrollado con PHP, Javascript y MySQL, y con diferentes posibilidades para integrarse con Drupal para compartir datos de clientes, contactos, productos o servicios de una empresa o asociación.
