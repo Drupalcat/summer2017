@@ -180,5 +180,8 @@ layout: default
       </table>
     </div>
   </section>
+  {% if page.no-social-share == nil %}
+    {% include social-share.html %}
+  {% endif %}
 
 </article>
