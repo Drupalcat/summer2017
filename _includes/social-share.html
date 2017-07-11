@@ -1,0 +1,15 @@
+{% include get-current-language.html %}
+{% assign T = site.data.translations %}
+<div class="social-share">
+<p style="margin-bottom: .2em;">{{ T.share_to[current_language] }}</p>
+    {% if site.social-share.twitter %}
+    <a class="social-icon social-icon__twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="comparte en Twitter">Twitter</a>
+    {% endif %}
+    {% if site.social-share.facebook %}
+    <a class="social-icon social-icon__facebook" href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="comparte en Facebook">Facebook</a>
+    {% endif %}
+    {% if site.social-share.google_plus %}
+    <a class="social-icon social-icon__google" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="comparte en Google+">Google+</a>
+    {% endif %}
+    <a class="social-icon social-icon__whatsapp" href="whatsapp://send?text={{ site.url }}{{ page.url }}" data-action="share/whatsapp/share">{{ T.share_to[current_language] }} Whatsapp</a>
+</div>

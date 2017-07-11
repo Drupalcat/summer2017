@@ -1,0 +1,40 @@
+.social-share {
+    text-align: center;
+    margin: 3em 0;
+
+}
+
+.social-icon{
+	display: inline-block;
+	text-indent: -9999px;
+	width: 1.5em;
+  height: 1.5em;
+	margin: 0 .25em;
+
+  @include opaque(70);
+
+	&:hover{
+		@include opaque(100);
+	}
+
+	&__twitter{
+		background: url(images/social/twitter.png) no-repeat;
+		background-image: url(images/social/twitter.svg), none;
+	}
+	&__facebook{
+		background: url(images/social/facebook-icon.png) no-repeat;
+		background-image: url(images/social/facebook-icon.svg), none;
+	}
+	&__google{
+		background: url(images/social/google_plus.png) no-repeat;
+		background-image: url(images/social/google_plus.svg), none;
+	}
+	&__whatsapp{
+		background: url(images/social/whatsapp.png) no-repeat;
+		background-image: url(images/social/whatsapp.svg), none;
+
+		@media screen and (min-device-width:783px){
+			display: none !important;
+		}
+	}
+}

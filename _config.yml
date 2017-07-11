@@ -49,6 +49,13 @@ social:
   #tripadvisor:
   #amazon:
 
+# social media share enabled
+social-share:
+  facebook: true
+  twitter: true
+  google_plus: true
+  instagram: true
+
 # Build settings
 markdown: kramdown
 #sass:

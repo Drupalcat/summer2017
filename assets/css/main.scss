@@ -351,7 +351,7 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 	}
 
 	textarea {
-		padding: 0.75em 1em;
+		padding: .75em 1em;
 	}
 
 	input[type="checkbox"],
@@ -2312,3 +2312,4 @@ iframe {
 
 	@import 'language-switcher';
 	@import 'components/session/session';
+	@import 'components/social-share/social-share';
