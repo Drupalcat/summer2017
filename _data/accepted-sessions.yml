@@ -1,7 +1,23 @@
-- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+#
+# Accepted sessions. This data is loaded in schedule session table
+# and in each session page.
+#
+# - id: unique session id. It is used to load session data.
+#   length: Duration
+#   sepaker: Name of the speaker
+#   drupal: drupal user
+#   level: session level {begginer, intermediate, advanced}
+#   title: Session title
+#   url: url of the session page. The sessions have not translations.
+#   sessionSlides:
+#     - src: url to the slides. It is possible to add more than one src.
+#   languages: Session languages
+#   description: Session description. Avoid ":" use  "&#58;" instead.
+
+- id: e0ipso1
+  length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Mateu Aguiló
   drupal: e0ipso
-  id: e0ipso1
   level: begginer
   title: Contenta makes your content happy
   url: /en/session/contenta-makes-your-content-happy/
@@ -15,10 +31,10 @@
 
       In this session you will learn how we achieve this goals, what is the roadmap of the projects and how easy it is to try decoupled Drupal using Contenta.
 
-- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+- id: dawehner1
+  length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Daniel Wehner
   drupal: dawehner
-  id: dawehner1
   level: begginer
   title: Drupal 8 best practices in the wild
   url: /en/session/drupal-8-best-practices-in-the-wild/
@@ -32,9 +48,9 @@
       - Development workflow
       - Launch / Hosting
 
-- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+- id: chumillas1
+  length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Cristina Chumillas
-  id: chumillas1
   level: Begginer
   title: Responsive Images and Art Direction in Drupal 8
   url: /es/session/responsive-images-and-art-direction-drupal8/
@@ -50,9 +66,9 @@
 
       When you leave this session you’ll have an idea about the options offered by Drupal and enough knowledge to choose the correct one for your project.
 
-- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+- id: siddi1
+  length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Siddharta Navarro Castellar
-  id: siddi1
   level: Begginer
   title: Extreme page composition with Paragraphs
   url: /en/session/extreme-page-composition-with-paragraphs/
@@ -66,12 +82,14 @@
 
       In this session will provide an overview of Paragraphs and show some real examples of the use of this module.
 
-- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+- id: robert1
+  length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Robert Menetray Caballero
-  id: robert1
   level: Intermediate
   title: Gestión de configuraciones con CMI (Drupal 8)
   url: /es/session/gestion-de-configuraciones-con-cmi-drupal8/
+  sessionSlides:
+    - src: https://docs.google.com/presentation/d/1Dhpq2laYKPylMXN6fvNXhekEQwcEMBTiN6pHtC-2wKQ
   languages: es
   description: >
     CMI (Configuration Management Initiative) es el sustituto de Features en Drupal 8, mucho mas potente y mucho más fácil de usar.
@@ -86,10 +104,10 @@
 
       Se explicará qué es CMI y se hará una breve demo en vivo si hay tiempo.
 
-- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+- id: jansete2
+  length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Juanen Bernal
   drupal: jansete
-  id: jansete2
   level: Intermediate
   title: Hacia rutas salvajes
   url: /es/session/hacia-rutas-salvajes/
@@ -111,9 +129,9 @@
       - Rutas complejas ayudándonos con los PathProcessors.
       - Objetos relacionados con el sistema de Routing.
 
-- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+- id: marcoscano2
+  length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Marcos Cano
-  id: marcoscano2
   level: Intermediate
   title: Ultimate embedding in Drupal 8 with Entity Embed and Url Embed
   url: /en/session/ultimate-embedding-in-d8-with-entity-embed-and-url-embed/
@@ -129,9 +147,9 @@
 
       Although not mandatory, people attending this session are expected to have basic site-building experience with Drupal 8, which will allow them to follow the demos and configuration steps more easily.
 
-- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+- id: carlosjimenez1
+  length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Carlos Jimenez
-  id: carlosjimenez1
   level: Intermediate
   title: The lazy way to production
   url: /en/session/the-lazy-way-to-production/
@@ -147,9 +165,9 @@
       - tests performance, behavior, visual regression, security or whatever you want!
       - syncs & backups/snapshots
 
-- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+- id: rodrigoaguilera1
+  length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Rodrigo Aguilera
-  id: rodrigoaguilera1
   level: Intermediate
   title: "Better dependency management - leverage composer to the limit"
   url: /en/session/better-dependency-management-leverage-composer-for-good/
@@ -171,9 +189,9 @@
 
       And if the time allows it we can open a discussion about good practices and tricks to make our composer experience better.
 
-- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+- id: cintamadico1
+  length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Cinta Màdico
-  id: cintamadico1
   level: Begginer
   title: SEO y marketing para Drupal
   url: /es/session/seo-y-marketing-para-drupal/
@@ -189,9 +207,9 @@
 
       Esta es una sesión pensada tanto para desarrolladores y sitebuilders Drupal que quieran conocer las herramientas SEO como para responsables de contenidos o  de marketing que trabajan con Drupal u otros CMS y con Google Analytics.
 
-- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+- id: samuelsolis2
+  length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Samuel Solís
-  id: samuelsolis2
   level: Intermediate
   title: Jugando con Form API en D8
   url: /es/session/jugando-con-form-api-en-d8/
@@ -208,10 +226,9 @@
       ¿A quién va dirigida esta sesión?
       Está pensada para todo aquel que tenga experiencia tocando código pero no conozca las bondades de Drupal 8 en lo que a formularios se refiere. Incluso si no tocas código demasiado a menudo posíblemente captes el mensaje, ¡aunque igual cuando te pongas a probar tardes un pelín más en hacerlo funcionar! Eso sí, primero veremos código, después más código, y terminaremos viendo un poco más de código (y quizá algún gatito).
 
-
-- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+- id: luisortiz1
+  length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Luis Ortiz Ramos
-  id: luisortiz1
   level: Intermediate
   title: Layout Discovery&#58; el nuevo estándar para el registro de layouts en el núcleo de Drupal
   url: /es/session/layout-discovery-el-nuevo-estandar-para-el-registro-de-layouts-en-core/
@@ -230,9 +247,9 @@
       - Crearemos nuestro propio Layout sencillo
       - Repasaremos como crear Layouts avanzados
 
-- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
+- id: dolibarr1
+  length: Xerrada completa / Charla completa / Full Talk - 45 minutes
   speaker: Oriol Diez - Josep Lluís Amador
-  id: dolibarr1
   level: Intermediate
   title: Integrando Drupal con el ERP/CRM Dolibarr&#58; la Alianza del OpenSource
   url: /es/session/integrando-drupal-con-erp-crm-dolibarr-la-alianza-opensource/
@@ -241,14 +258,3 @@
   languages: es
   description: >
     Introducción al ERP/CRM Dolibarr, proyecto libre con licencia GPL, desarrollado con PHP, Javascript y MySQL, y con diferentes posibilidades para integrarse con Drupal para compartir datos de clientes, contactos, productos o servicios de una empresa o asociación.
-
-- length: Xerrada completa / Charla completa / Full Talk - 45 minutes
-  speaker: TBD
-  drupal:
-  id: tbd1
-  url: /en/session/tbd/
-  level: ??
-  title: TBD
-  languages: en
-  description: >
-    pending description
