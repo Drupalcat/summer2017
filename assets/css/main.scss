@@ -2306,6 +2306,9 @@ $baseurl: '{{ site.baseurl }}/assets/images';
 	}
 }
 
+iframe {
+  max-width: 100%;
+}
 
 	@import 'language-switcher';
 	@import 'components/session/session';
