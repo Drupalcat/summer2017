@@ -232,6 +232,8 @@
   level: Intermediate
   title: Layout Discovery&#58; el nuevo estándar para el registro de layouts en el núcleo de Drupal
   url: /es/session/layout-discovery-el-nuevo-estandar-para-el-registro-de-layouts-en-core/
+  sessionSlides:
+    - src: https://www.slideshare.net/Ateneatech/layout-discovery-drupal-summer-barcelona-2017
   languages: es
   description: >
     Desde la versión 8.3.0, el núcleo de Drupal incluye el módulo Layout Discovery de forma experimental.
