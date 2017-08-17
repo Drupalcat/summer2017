@@ -112,7 +112,7 @@
   title: Hacia rutas salvajes
   url: /es/session/hacia-rutas-salvajes/
   sessionSlides:
-    - src: http://slides.com/saphyel/lazy-way-production#/
+    - src: https://docs.google.com/presentation/d/1jGAxZPdDyIHkjPZ3dIPrHak3rzJPCWQutptO-V2rxPk/edit#slide=id.g1e69d961fc_0_105
   languages: es
   description: >
     Routes, Controllers, Symfony, Programación Orientada a Objetos... todas estas novedades y muchas más se han encargado de dejar atrás a nuestro viejo compañero de viaje hook_menu().
